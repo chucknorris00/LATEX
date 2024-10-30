@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  30 OCT 2024 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  30 OCT 2024 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -395,13 +395,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 103--107
 
  []
 
 
 
 [2{C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (48.55795pt too wide) in paragraph at lines 131--132
+\T1/lmr/bx/n/24.88 of the man-u-fac-tur-ing tech-niques,
+ []
+
+
+Overfull \hbox (52.91191pt too wide) in paragraph at lines 131--132
+\T1/lmr/bx/n/24.88 and spec-ify on solid state sinther-
+ []
+
+
 
 [3] (Main.bbl)
 
@@ -413,14 +423,14 @@ L3 programming layer <2024-10-09>
  ) 
 Here is how much of TeX's memory you used:
  10087 strings out of 473896
- 157964 string characters out of 5726440
- 548528 words of memory out of 5000000
+ 157954 string characters out of 5726440
+ 547523 words of memory out of 5000000
  32793 multiletter control sequences out of 15000+600000
  635107 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,6n,93p,626b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,93p,598b,505s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
-Output written on Main.pdf (5 pages, 231209 bytes).
+Output written on Main.pdf (5 pages, 235689 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
