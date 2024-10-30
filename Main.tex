@@ -1,0 +1,136 @@
+\documentclass{article}
+\usepackage{graphicx}  % Include the graphicx package
+\usepackage{ifxetex,ifluatex}
+\usepackage{bookmark}
+\usepackage{cite} 
+\if\ifxetex \else\ifluatex T\else F\fi\fi T%
+\usepackage{fontspec}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
+
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{float}
+
+\begin{document}
+
+\title{
+  \vspace{-5cm}  % Adjust vertical space before the images
+  \begin{minipage}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images.png}  % First image on the left
+   \vspace{2cm}
+  \end{minipage}
+  \begin{minipage}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{lepmi_logo.png}
+    \vspace{2cm}
+    % Second image on the right
+  \end{minipage}
+  \textbf{\Huge Influence of KCl and NaCl Proportions \\ in \(\text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2}\) Molten Salt Synthesis for Li-ion Batteries}
+    \vspace{4cm}
+  }
+ 
+
+\author{
+  \textbf{Authors}\\
+  Noriega Franco Santiago \\
+  Choppe Apolline \\
+  Brétillon Laura\\
+  \\
+  \textbf{Supervisors}\\
+  Eddy Coron\\
+  Julia Levy\\
+  Lenka Svecova}
+
+
+\date{
+  \vspace{2cm}
+  \small{January 24, 2024}
+}
+
+
+
+
+\maketitle
+\newpage
+\setcounter{page}{1}  % Start counting from 1
+\tableofcontents
+\newpage
+\section{Abstract}
+\section {Introduction}
+
+Lithium Ion batteries are a key technological tool for the sustainable mobility development all around the world. The performance of these batteries are highlly influenced by the materials composition,morphology, crystal structure and synthesis parameters, specially for the cathode material and the electrolyte.\\
+Todays cathodes are called intercalation cathodes, they consist in a solid network that can host ions with intercalation and deintercalation cycles.
+These compounds can be devided into several different structures; layered, olivine and spinel.
+Some common cathode materials in Lithium ion technologies are;\\
+\begin{description}
+  \item[Layered structures]
+  \item[$\text{LiCoO}_{2}$]  (LCO) This material has low capacity compared to the 
+  theoretical one the extraction of more than half the lithium content leads to structural instabilities
+  .It´s use is also restricted due to the high costs of cobalt and its scarcity. 
+  \item[$ \text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2} $]  (NMC). 
+  Other solution to the LCO problem is NMC, which will be discused
+  further in this report.
+
+  \item[$\text{LiNi}_{0.8}\text{Co}_{0.15}\text{Al}_{0.05}\text{O}_{2}$] (NCA).
+  This material increases the charge capacity by changing the Co content with Ni and using aluminium as 
+  a stabilizer. This reduces slightlly the average cell voltage
+  compared to LCO.
+  \\
+\end{description}
+
+\begin{description}
+  \item[Spinel structures] 
+  \item[$\text{LiMn}_{2}\text{O}_{4}$](LMO).The specific lattice structure
+  of LMO, allows diffusion on three dimentions, which leads to faster charge
+  -discharge rates. It is also a greener solution compared to to 
+  Co based possitive electrode materials. The disadvantage of LMO is t
+its low charge retention and low cyclability.
+\end{description}
+
+\begin{description}
+  \item[Olivine structures] 
+  \item[$\text{LiFePO}_{4}$](LFP). This is also a greener material than the 
+  Co based structures. LFP has a really high thermal stability but only counts
+  with one dimenstional diffusion. Therefore the voltage of discharge
+  is too low. 
+\end{description}
+
+In this report we are goin to focus on the NMC material.\\
+\begin{center}
+  
+
+\begin{tabular}{|c|c|c|}
+  
+  \hline
+  Specific capacity
+theoretical/practical
+(mAh/g) & 280/170  \\
+  \hline
+  Average Voltage & 3.7  \\
+  \hline
+  Row 3, Col 1 & Row 3, Col 2 \\
+  \hline
+\end{tabular}
+\end{center}
+Currentlly, there is a great need to avid any waste form industry,
+specially if you are working with scarce materials. Therefore some efforts
+have been done to repurpose the waste of Li-Ion batteries plants and turn them into a
+usable material.\\
+This experiment will evaluate the morphology and performance of molten salt sintered NMC 811 for lithium-ion technologies. The presence of a liquid phase during calcination aids the whole process kinetics serving as a faster diffusion media for particle growth and homogenization. When solidified, the presence of this aiding phase is no longer wanted, to assure the purity of the target material.  Therefore, salts are used, due to the capacity of easy dissolution on water, the salt can be washed off the target material. \cite{knuth1984}\\
+From previous research, a mix of NaCl and KCl is chosen to be used since the mix between both salts depresses their melting point, allowing a purely liquid phase at the processing temperature of NMC. In addition to the low price of the compounds and the fact that the ion size is too large to take lithium sites in the materials lattice when washed. The aim of this study is to evaluate the influence of the salt mixture proportions on the final morphology and performance of the synthesized NMC positive electrode material material.
+\section{State of the art}
+\section {Methodology}
+\section{Results}
+\section{Discussion}
+\section{Conclussions}
+
+
+\newpage
+\bibliographystyle{plain}  
+\bibliography{Biblio}
+\end{document}
