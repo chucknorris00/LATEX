@@ -1,8 +1,43 @@
 \begin{thebibliography}{1}
 
+\bibitem{process}
+Monu Malik, Ka~Ho Chan, and Gisele Azimi.
+\newblock Review on the synthesis of linixmnyco1-x-yo2 (nmc) cathodes for
+  lithium-ion batteries.
+\newblock {\em Materials Today Energy}, 28:101066, 2022.
+
+\bibitem{Heuristics}
+Alex Mesnier and Arumugam Manthiram.
+\newblock Heuristics for molten-salt synthesis of single-crystalline
+  ultrahigh-nickel layered oxide cathodes.
+\newblock {\em ACS Applied Materials \& Interfaces}, 15(10):12895--12907, 2023.
+\newblock PMID: 36857760.
+
+\bibitem{RMA}
+European Parlament.
+\newblock Regulation (eu) 2024/1252 of the european parliament and of the
+  councils.
+\newblock 2014.
+
 \bibitem{topo}
 Topolovek Stephan.
 \newblock {\em Script: Funtional Materials}.
 \newblock TU Graz, Graz, Austria, 2022.
+
+\bibitem{meltingp}
+Wessel Van~den Bergh, Rui Yao, Ruizhuo Zhang, Aleksandr Kondrakov, Jürgen
+  Janek, and Torsten Brezesinski.
+\newblock Effect of salt selection and molar ratio in molten salt synthesis of
+  single-crystalline linio2.
+\newblock {\em J. Mater. Chem. A}, 12:8683--8688, 2024.
+
+\bibitem{precalci}
+Bixian Ying, Jack~R. Fitzpatrick, Zhenjie Teng, Tianxiang Chen, Tsz
+  Woon~Benedict Lo, Vassilios Siozios, Claire~A. Murray, Helen E.~A. Brand,
+  Sarah Day, Chiu~C. Tang, Robert~S. Weatherup, Michael Merz, Peter Nagel,
+  Stefan Schuppler, Martin Winter, and Karin Kleiner.
+\newblock Monitoring the formation of nickel-poor and nickel-rich oxide cathode
+  materials for lithium-ion batteries with synchrotron radiation.
+\newblock {\em Chemistry of Materials}, 35(4):1514--1526, 2023.
 
 \end{thebibliography}

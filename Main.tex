@@ -3,34 +3,34 @@
 \usepackage{ifxetex,ifluatex}
 \usepackage{bookmark}
 \usepackage{cite} 
-\if\ifxetex \else\ifluatex T\else F\fi\fi T%
-\usepackage{fontspec}
-\else
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{lmodern}
-\fi
-
-\usepackage{hyperref}
 \usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
 \usepackage{float}
+
 
 \begin{document}
 
 \title{
-  \vspace{-5cm}  % Adjust vertical space before the images
-  \begin{minipage}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{images.png}  % First image on the left
+  \vspace{-3cm}  % Adjust vertical space before the images
+  \begin{minipage}{0.48\textwidth}
+     \raggedright  % Aligne at the left
+    \includegraphics[width=0.6\textwidth]{images.png}  % First image on the left
    \vspace{2cm}
   \end{minipage}
-  \begin{minipage}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{lepmi_logo.png}
+  \begin{minipage}{0.48\textwidth}
+    \raggedleft
+ 
+    \includegraphics[width=0.6\textwidth]{lepmi_logo.png}
     \vspace{2cm}
     % Second image on the right
   \end{minipage}
-  \textbf{\Huge Influence of KCl and NaCl Proportions \\ in \(\text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2}\) Molten Salt Synthesis for Li-ion Batteries}
+  \vspace{2cm}
+
+  \textbf{\Large Influence of KCl and NaCl Proportions in\\
+  ${Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}$ }\\ 
+  \vspace{0.3cm}
+  \textbf{\Large Molten Salt Synthesis for Li-ion Batteries}
     \vspace{4cm}
   }
  
@@ -63,47 +63,15 @@
 \section{Abstract}
 \section {Introduction}
 
-Lithium Ion batteries are a key technological tool for the sustainable mobility development all around the world. The performance of these batteries are highlly influenced by the materials composition,morphology, crystal structure and synthesis parameters, specially for the cathode material and the electrolyte.\\
-Todays cathodes are called intercalation cathodes, they consist in a solid network that can host ions with intercalation and deintercalation cycles.
-These compounds can be devided into several different structures; layered, olivine and spinel.
-Some common cathode materials in Lithium ion technologies are;\\
-\begin{description}
-  \item[Layered structures]
-  \item[$\text{LiCoO}_{2}$]  (LCO) This material has low capacity compared to the 
-  theoretical one the extraction of more than half the lithium content leads to structural instabilities
-  .It´s use is also restricted due to the high costs of cobalt and its scarcity. 
-  \item[$ \text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2} $]  (NMC). 
-  Other solution to the LCO problem is NMC, which will be discused
-  further in this report.
+Lithium Ion batteries are a key technological tool for the sustainable mobility
+ development all around the world. The performance of these batteries are highlly 
+ influenced by the materials composition, morphology, crystal structure and synthesis 
+ parameters, specially for the postive electrode material and the electrolyte.\\
 
-  \item[$\text{LiNi}_{0.8}\text{Co}_{0.15}\text{Al}_{0.05}\text{O}_{2}$] (NCA).
-  This material increases the charge capacity by changing the Co content with Ni and using aluminium as 
-  a stabilizer. This reduces slightlly the average cell voltage
-  compared to LCO.
-  \\
-\end{description}
-
-\begin{description}
-  \item[Spinel structures] 
-  \item[$\text{LiMn}_{2}\text{O}_{4}$](LMO).The specific lattice structure
-  of LMO, allows diffusion on three dimentions, which leads to faster charge
-  -discharge rates. It is also a greener solution compared to to 
-  Co based possitive electrode materials. The disadvantage of LMO is t
-its low charge retention and low cyclability.
-\end{description}
-
-\begin{description}
-  \item[Olivine structures] 
-  \item[$\text{LiFePO}_{4}$](LFP). This is also a greener material than the 
-  Co based structures. LFP has a really high thermal stability but only counts
-  with one dimenstional diffusion. Therefore the voltage of discharge
-  is too low  \cite{topo} .
-\end{description}
-
-In this report, we are going to focus on the NMC material. Currentlly, the aim of development
-for this material is to incrase the ammount of nickel in the structure, increasing the
+In this report, we are going to focus on the NMC811 material. Currently, the aim of development
+for this material is to increase the amount of nickel in the structure, increasing the
 capacity and reducing costs, but the increase of nickel might also deteriorate the structure
-mainlly by cathode mixing, which means that the nikel might take the Lithium sites.\cite{topo}\\
+mainly by positive electrode mixing, which means that the nickel might take the Lithium sites.\cite{topo}\\
 \begin{center}
   
 
@@ -111,25 +79,179 @@ mainlly by cathode mixing, which means that the nikel might take the Lithium sit
   
   \hline
   Specific capacity
-theoretical/practical
-(mAh/g) & 280/170  \\
+theoretical
+(mAh/g) & 280  \\
   \hline
-  Average Voltage & 3.7  \\
+  Average Voltage in discharge (V) & 3.7  \\
   \hline
   Row 3, Col 1 & Row 3, Col 2 \\
   \hline
 \end{tabular}
 \end{center}
-Currentlly, there is a great need to avid any waste form industry,
-specially if you are working with scarce materials. Therefore some efforts
-have been done to repurpose the waste of Li-Ion batteries plants and turn them into a
-usable material.\\
-This experiment will evaluate the morphology and performance of molten salt sintered NMC 811 for lithium-ion technologies. The presence of a liquid phase during calcination aids the whole process kinetics serving as a faster diffusion media for particle growth and homogenization. When solidified, the presence of this aiding phase is no longer wanted, to assure the purity of the target material.  Therefore, salts are used, due to the capacity of easy dissolution on water, the salt can be washed off the target material.\\
-From previous research, a mix of NaCl and KCl is chosen to be used since the mix between both salts depresses their melting point, allowing a purely liquid phase at the processing temperature of NMC. In addition to the low price of the compounds and the fact that the ion size is too large to take lithium sites in the materials lattice when washed. The aim of this study is to evaluate the influence of the salt mixture proportions on the final morphology and performance of the synthesized NMC positive electrode material material.
+
+Currently, there is a great need to avoid any waste form industry,
+specially if you are working with scarce materials. The European Critical Raw Materials Act describes lithium, nickel and cobalt as crucial for the economy and asks for the implementation of a sustainable independent supply chain.\cite{RMA} Therefore some efforts
+have been done to repurpose the waste of Li-ion batteries plants and turn them into a usable material. This project, attached to LEPMI laboratory and VERKOR, aims to repurpose byproduct carbonates (\({MnCO}_{3}\), \({CoCO}_{3}\) and \({NiOH}_{a}{({CO}_{3})}_{b}\) ) to synthesize NMC811 by solid state sintering. \\
+
+This experiment will evaluate the morphology and performance of molten salt sintered NMC 811 for lithium-ion technologies. The presence of a liquid phase during calcination aids the whole process kinetics serving as a faster diffusion media for particle growth and homogenization. When solidified, the presence of this aiding phase is no longer wanted, to assure the purity of the target material.  Therefore, salts are used, due to the capacity of easy dissolution on water, the salt can be washed off the target material\cite{Heuristics}.\\
+
+From previous research, a mix of NaCl and KCl is chosen to be used since the mix between both salts depresses their melting point, allowing a purely liquid phase at the processing temperature of NMC. In addition to the low price of the compounds and the fact that the ion size is too large to take lithium sites in the materials lattice when washed. The aim of this study is to evaluate the influence of the salt mixture proportions on the final morphology and performance of the synthesized NMC positive electrode material material\cite{meltingp}.\\
+
+The characterization techniques used are Scanning Electron Microscopy (SEM), X-Ray Dirfraction spectroscpoy to identify the material phases and electrochemical characterization techniques on coin cells.  \\
 \section{State of the art}
-\textbf{\Huge{here we can give an overview of the manufacturing techniques,
-and specify on solid state sinthering}}
-\section {Methodology}
+\subsection{Positive electrode materials}
+
+Todays positive electrodes are mostly intercalation or composite electrodes, they consist in a solid network that can host lithium ions with intercalation during discharge and deintercalation during discharge.
+These compounds can be devided into several different structures; layered, olivine and spinel. \cite{topo} \\
+
+Some common cathode materials in lithium-ions technologies are:
+\begin{description}
+ \subsubsection{Layered structures}
+  \item[$\text{LiCoO}_{2}$]  (LCO) This material has low capacity compared to the 
+  theoretical one the extraction of more than half the lithium content leads to structural instabilities
+  . It's use is also restricted due to the high cost of cobalt and its scarcity. 
+  \item[$ \text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2} $]  (NMC811).
+  NMC811 has more nickel and less cobalt than NMC111, which is better for the environment by reducing reliance on cobalt. However, this higher nickel content makes NMC811 batteries less stable and more prone to degradation and overheating compared to NMC111.
+  
+
+  \item[$\text{LiNi}_{0.8}\text{Co}_{0.15}\text{Al}_{0.05}\text{O}_{2}$] (NCA).
+  This material increases the charge capacity by changing the Co content with Ni and using aluminum as 
+  a stabilizer. This reduces slightly the average cell voltage
+  compared to LCO.
+\end{description}
+
+\begin{description}
+ \subsubsection{Spinel structures}
+  \item[$\text{LiMn}_{2}\text{O}_{4}$](LMO).The specific lattice structure
+  of LMO, allows diffusion on three dimensions, which leads to faster charge
+  - discharge rates. It is also a greener solution compared to to 
+  Co based positive electrode materials. The disadvantage of LMO is t
+its low charge retention and low cyclability.
+\end{description}
+
+\begin{description}
+  \subsubsection{Olivine structures}
+  \item[$\text{LiFePO}_{4}$](LFP). This is also a greener material than the 
+  Co based structures. LFP has a really high thermal stability but only counts
+  with one dimensional diffusion. Therefore the voltage of discharge
+  is too low.
+\end{description}
+
+\subsection{Synthesis methods}
+The choice of synthesis method  affects the final properties of NMC
+, like the tap density,the particle size distribution and  shape (primary and secondary) and 
+crystallinity, also yields the presence of impurities and quality of the final product.
+The electrochemical performance is also influenced by the chosen method.\\
+There are several ways to make NMC; for example co-precipitation, solid state reaction, sol-gel, hydrothermal, spray pyrolysis\cite{process}.
+Here is an overview of the most common methods used for NMC synthesis:\\
+\subsubsection{Co-precipitation}
+This is today the most popular and cost effective production method, on an industrial scale
+. The method consists on the simultaneous precipitation of the transition metals and a subsequent sintering with
+a lithium source. The parameters important for this process is the pH of the solution, the stirring rate 
+and the used chealing agent this highly affects the particle size and morphology\cite{process}.\\
+There are three types of co-precipitation depending on the precursors used;
+\begin{itemize}
+  \item Carbonate co-precipitation: This type of precipitation doesn't need an inert atmosphere
+  because the oxidation state of the metals can be stabilized by CO. The problem is that
+the control of the final morphology is limited.
+  \item Hydroxide co-precipitation: The final product of this process is really
+  cost effective and has high tap density. When sintered, the particle size doesn't change
+  so much but it is possible to get impurities from manganese oxides.
+  \item Oxalate co-precipitation: This method is considered more environmentally
+  friendly than the other two, and even cheaper. It does not require an inert 
+  atmosphere. The only problem is that the oxalate salts that are used 
+  have low solubility in water, therefore the production rate would be lower\cite{process}.
+\end{itemize}
+\subsubsection{Solid state reaction}
+This is one of the most classical methods to synthesize any kind of ceramic material. 
+It consists on the correct mixing of the precursors, and then heating the powder below the fusion temperature of the material.
+This activates the diffusion of the material due to surface energy phenomena, finishing on the coarsening of larger particles
+in expense of smaller ones. The disadvantage of this method is the high dependence on the initial particle size distribution and 
+the homogeneity of the mixture\cite{process}.\\
+\textbf{Use of molten salts}\\ 
+This process commonly requires really high energy input. One alternative to this 
+is to introduce a liquid diffusion media into the process, which is done in this project. A salt is used
+because is a substance that is liquid at the sintering temperature, it does not interact chemically with the active 
+material and can be removed easily after sintering\cite{process}. \\
+\subsubsection{Sol-gel}
+Sol-gel method is used on laboratory scale conditions. It consists on forming a gel from transition 
+metal salts and a chealing agent that is then dried and sintered. It provides really good morphology and control over the stoichiometry\cite{process}.
+\subsubsection{Spray pyrolysis}
+Spray Pyrolysis consists on atomizing the precursor in a solution at a really high temperature. This yields on a 
+quite homogenous layer of mixed materials (not better that CVD or PVD). Here the properties depend on the solution concentration, the 
+droplet size and the temperature of the process\cite{process}.\\ 
+\subsection{Characterization methods}
+There are several techniques to extract information from positive electrode materials,
+these evaluate physical, chemical and electrochemical properties to evaluate the stability, morphology 
+and performance of the material. Here is an overview of the characterization techniques used on this project.\\
+\subsubsection{Scanning Electron Microscopy (SEM)}
+This technique is useful to get high resolution imaging of the materials morphology.
+It consists on a beam of electrons that scans the surface of the sample and the collection of three 
+different signals; secondary electrons, backscattered electrons and X-rays. 
+\begin {itemize}
+\item Backscattered electrons: These electrons are the ones that interact with the materials atoms and get back to
+the sensor, the intensity of the signal can be related to the element´s atomic mass. Heavier elements will scatter more electrons
+to the sensor. Therefore, this signal is useful to get the composition and phases of the material.
+The strength of this signal is also dependant on the topography of the samples surface, therefore a topographic image can be obtained.\\
+\item Secondary electrons:
+\item X-rays:
+\subsubsection{X-Ray Diffraction (XRD)}
+\subsubsection{Electrochemical characterization}
+
+\section {Methodology} 
+\subsection{NMC 811 electrode synthesis}
+
+\subsubsection{Active material synthesis}
+
+\textbf{Step 1: precursor mixing: }\\
+Precursor mixtures were prepared with the stoichiometry of NMC811
+ with excess lithium 15\%, and with the target of 4g of precursors. As three salt ratios are tested, three NMC precursors need to be made. Each species was weighted as stated in Table \ref{t1} in the three samples, and the salts were then added with different mass for each mixture according to Table \ref{t2}.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Species} & \textbf{Mass (g)} \\ 
+        \hline
+        MnCO$_3$ & 0.589 \\
+        CoCO$_3$ & 0.610 \\
+        Ni(OH)$_a$(CO$_3$)$_b$ & 4.508 \\
+        LiOH & 2.828 \\
+        \hline
+    \end{tabular}
+    \caption{Mass of each components used for NMC 811 synthesis other than the salts.}
+    \label{t1}
+    
+\end{table}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Salt ratio (NaCl:KCl)} & \textbf{Mass of NaCl (g)} & \textbf{Mass of KCl (g)} & \textbf{Total mass (g)} \\ 
+    \hline
+    1:1 & 2.971 & 3.791 & 6.762 \\ 
+    6:4 & 3.566 & 3.033 & 6.598 \\ 
+    4:6 & 2.377 & 4.549 & 6.926 \\ 
+    \hline
+  \end{tabular}
+  \caption{Masses of NaCl and KCl for different salt ratios used in NMC synthesis.}
+  \label{t2}
+\end{table}
+
+
+\textbf{Step 2: Ball milling:}\\
+Each sample is then mixed with ball milling, using 60 ZrO2 4.5mm beads in a 45 mL bowl air and 4 cycles of the following programme: rotations at 250 rpm during 5 min, then 10 min rest. \\
+
+\textbf{Step 3: Pre-annealing:}\\
+The three mixtures obtained are then heated at 500°C in an oven: first, a ramp of 5°C/min during 100 min to reach 500°C, then this temperature is held during 3h. This step aims to melt the LiOH in the precursors, as this Li-source melting point is 462°C. \cite{precalci} \\
+
+
+\subsubsection{Ink preparation}
+
+\subsection{Coin cell protocol}
+
+\subsection{Characterization precaution}
+
+
 \section{Results}
 \section{Discussion}
 \section{Conclussions}
