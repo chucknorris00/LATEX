@@ -21,5 +21,6 @@
 \contentsline {subsection}{\numberline {4.2}Coin cell protocol}{7}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Characterization precaution}{7}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Results}{7}{section.5}%
-\contentsline {section}{\numberline {6}Discussion}{7}{section.6}%
-\contentsline {section}{\numberline {7}Conclussions}{7}{section.7}%
+\contentsline {subsection}{\numberline {5.1}ICP results}{7}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Discussion}{8}{section.6}%
+\contentsline {section}{\numberline {7}Conclussions}{8}{section.7}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  28 NOV 2024 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  28 NOV 2024 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -237,7 +237,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box56
-) (Main.aux)
+) (Main.aux
+
+LaTeX Warning: Label `fig:example_image' multiply defined.
+
+)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -370,79 +374,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--187
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--196
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
  []
 
 
-Overfull \hbox (53.49239pt too wide) in paragraph at lines 227--236
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
+
+ []
+
+
+Overfull \hbox (53.49239pt too wide) in paragraph at lines 229--238
  [][] 
  []
 
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--246
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
 
  []
 
+<output.png, id=115, 970.5861pt x 542.7477pt>
+File: output.png Graphic file (type png)
+<use output.png>
+Package pdftex.def Info: output.png  used on input line 261.
+(pdftex.def)             Requested size: 345.0pt x 192.92108pt.
+<output2.png, id=116, 608.5134pt x 422.7795pt>
+File: output2.png Graphic file (type png)
+<use output2.png>
+Package pdftex.def Info: output2.png  used on input line 267.
+(pdftex.def)             Requested size: 276.00105pt x 191.75856pt.
 
 
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260 \newpage
-              
+l.270 \end{figure}
+                  
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.260 \newpage
-              ]
+l.270 \end{figure}
+                  ]
 
-[7] (Main.bbl)
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271 \section
+              {Discussion} <./output.png>]
 
-c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex:263: LaTeX Error: \begin{itemize} on input line 191 ended by \end{document}.
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.275 \newpage
+               <./output2.png>] (Main.lof)
+\tf@lof=\write4
+\openout4 = `Main.lof'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ (Main.bbl)
 
-
-
-[8] (Main.aux)
+[9] (Main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
- )
-(\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 191 (\begingroup)
-### bottom level 
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9728 strings out of 473896
- 151588 string characters out of 5726440
- 547920 words of memory out of 5000000
- 32449 multiletter control sequences out of 15000+600000
+ 9759 strings out of 473896
+ 152092 string characters out of 5726440
+ 549017 words of memory out of 5000000
+ 32472 multiletter control sequences out of 15000+600000
  567036 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,10n,93p,634b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,10n,93p,634b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Main.pdf (9 pages, 202195 bytes).
+Output written on Main.pdf (10 pages, 251960 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
