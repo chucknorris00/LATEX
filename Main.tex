@@ -7,6 +7,8 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage[a4paper, top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+
 
 
 \begin{document}
@@ -107,17 +109,15 @@ These compounds can be devided into several different structures; layered, olivi
 Some common cathode materials in lithium-ions technologies are:
 \begin{description}
  \subsubsection{Layered structures}
-  \item[$\text{LiCoO}_{2}$]  (LCO) This material has low capacity compared to the 
-  theoretical one the extraction of more than half the lithium content leads to structural instabilities
-  . It's use is also restricted due to the high cost of cobalt and its scarcity. 
-  \item[$ \text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2} $]  (NMC811).
-  NMC811 has more nickel and less cobalt than NMC111, which is better for the environment by reducing reliance on cobalt. However, this higher nickel content makes NMC811 batteries less stable and more prone to degradation and overheating compared to NMC111.
+  \item[$\text{LiCoO}_{2}$]  (LCO). This material has low capacity compared to the theoretical one the extraction of more than half the lithium content leads to structural instabilities. It's use is also restricted due to the high cost of cobalt and its scarcity. \cite{topo}\cite{LCO}
+ 
+  \item[$ \text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2} $]  (NMC811). NMC811 has more nickel and less cobalt than NMC111, which is better for the environment by reducing reliance on cobalt. However, this higher nickel content makes NMC811 batteries less stable and more prone to degradation and overheating compared to NMC111.\cite{topo}
   
 
   \item[$\text{LiNi}_{0.8}\text{Co}_{0.15}\text{Al}_{0.05}\text{O}_{2}$] (NCA).
   This material increases the charge capacity by changing the Co content with Ni and using aluminum as 
   a stabilizer. This reduces slightly the average cell voltage
-  compared to LCO.
+  compared to LCO.\cite{topo}
 \end{description}
 
 \begin{description}
@@ -126,7 +126,7 @@ Some common cathode materials in lithium-ions technologies are:
   of LMO, allows diffusion on three dimensions, which leads to faster charge
   - discharge rates. It is also a greener solution compared to to 
   Co based positive electrode materials. The disadvantage of LMO is t
-its low charge retention and low cyclability.
+its low charge retention and low cyclability.\cite{topo}
 \end{description}
 
 \begin{description}
@@ -134,16 +134,15 @@ its low charge retention and low cyclability.
   \item[$\text{LiFePO}_{4}$](LFP). This is also a greener material than the 
   Co based structures. LFP has a really high thermal stability but only counts
   with one dimensional diffusion. Therefore the voltage of discharge
-  is too low.
+  is too low.\cite{Olivine} \\
 \end{description}
 
 \subsection{Synthesis methods}
-The choice of synthesis method  affects the final properties of NMC
-, like the tap density,the particle size distribution and  shape (primary and secondary) and 
-crystallinity, also yields the presence of impurities and quality of the final product.
-The electrochemical performance is also influenced by the chosen method.\\
-There are several ways to make NMC; for example co-precipitation, solid state reaction, sol-gel, hydrothermal, spray pyrolysis\cite{process}.
-Here is an overview of the most common methods used for NMC synthesis:\\
+The choice of synthesis method plays a critical role in determining the final properties of NMC materials. Key attributes such as tap density, particle size distribution, particle morphology (both primary and secondary shapes), and crystallinity are strongly influenced by the synthesis process. Additionally, the method chosen impacts the presence of impurities, the overall quality of the final product, and its electrochemical performance. \\
+
+Various synthesis methods are available for producing NMC, including co-precipitation, solid-state reaction, sol-gel processes, hydrothermal methods, and spray pyrolysis \cite{process}. 
+
+Each approach has its own advantages and limitations, influencing the structure and performance of the material in different ways. Below is an overview of the most commonly used methods for NMC synthesis:
 \subsubsection{Co-precipitation}
 This is today the most popular and cost effective production method, on an industrial scale
 . The method consists on the simultaneous precipitation of the transition metals and a subsequent sintering with
@@ -172,7 +171,7 @@ the homogeneity of the mixture\cite{process}.\\
 This process commonly requires really high energy input. One alternative to this 
 is to introduce a liquid diffusion media into the process, which is done in this project. A salt is used
 because is a substance that is liquid at the sintering temperature, it does not interact chemically with the active 
-material and can be removed easily after sintering\cite{process}. \\
+material and can be removed easily after sintering\cite{process}.
 \subsubsection{Sol-gel}
 Sol-gel method is used on laboratory scale conditions. It consists on forming a gel from transition 
 metal salts and a chealing agent that is then dried and sintered. It provides really good morphology and control over the stoichiometry\cite{process}.
@@ -194,10 +193,27 @@ being the ones emitted by the source.\\
 the sensor, the intensity of the signal can be related to the element's atomic mass. Heavier elements will scatter more electrons
 to the sensor. Therefore, this signal is useful to get the composition and phases of the material.
 The strength of this signal is also dependant on the topography of the samples surface, therefore a topographic image can be obtained.\\
-\item Secondary electrons:
-\item X-rays:
+\item Secondary electrons: The secondary electrons are the ones that interact in an inelastic way with the material, therefore they arrive to
+the sensor with less energy. This signal is useful to get the morphology of the material because only the electrons that interact with the surface
+are collected. The energy when collected is related to the surface morphology and an image is created.\\
+\item X-rays: Are a byproduct generated when a primary electron removes an electron from the inner shell of an atom. The energy of the X-ray is related to the
+atomic number of the element. This signal is useful for the creation of composition maps overlaying the 
+SEM images.\\
 \end{itemize}
 \subsubsection{X-Ray Diffraction (XRD)}
+X-Ray Diffraction is a non destructive technique used to characterize crystalline materials. 
+It provides information about the crystal phases, structural parameters (ize of crystals, crystallinity  and defects) and the orientation of the crystals.\\
+This method works by comparing the of the xray beam (with a wavelength $\lambda$ ) and the lattice planes called $\theta$. The reflected beam has an angle of $2\theta$, and this is the one that is meassured.
+\begin{center}
+  \[
+      2d \sin(\theta) = n\lambda
+  \]
+\end{center}
+The Bragg's law is used to calculate the distance between the lattice planes (d) , characteristic of the crystal structure. 
+The intensity of the diffracted beam is related to the number of atoms in the crystal, the atomic number and the distance between the planes.\\
+
+Today, databases can compare the diffraction spectra with the ones of known materials, to identify the phases present in the sample.\\
+
 \subsubsection{Electrochemical characterization}
 
 \section {Methodology} 
@@ -246,6 +262,17 @@ Each sample is then mixed with ball milling, using 60 ZrO2 4.5mm beads in a 45 m
 \textbf{Step 3: Pre-annealing:}\\
 The three mixtures obtained are then heated at 500°C in an oven: first, a ramp of 5°C/min during 100 min to reach 500°C, then this temperature is held during 3h. This step aims to melt the LiOH in the precursors, as this Li-source melting point is 462°C. \cite{precalci} \\
 
+\textbf{Step 4: Annealing:}\\
+The pre-annealed samples are then calcinated in an oven at 800°C for 12h, after a ramp of ??. The salt mix melts, as its melting point is at 660°C, but not the NMC material as it melts above 800°C. When the samples are annealed, they are then cooled down naturally.\\
+
+\textbf{Step 5: With or without ball milling:}\\
+Each annealed NMC precursor are grounded in a morter and divided in two samples: an  A one and a B one, that will follow different protocols. The samples B have a additionnal ball milling step, with the same parameters as before: 4 cycles of rotations at 250 rpm during 5 min cut by 10 min rest, using 60 ZrO2 4.5mm beads in a 45 mL bowl air. The goal is to homogenize the grains again. As for samples A, they are not ball milled and go directly to the next step of the protocol.\\
+
+\textbf{Step 6: Washing:}\\
+Each one of the grounded or ball-milled NMC samples are then washed using vacuum filtration. The filters used are 47 mm Milipore Express PLUS 0.22µm PES Membrane, and the powder is added on top. It is rinced several times with distilled water to remove the salt from the NMC material, with approximately 250 mL of water in total. NaCl and KCl then dissolve in the water as  $Na^+, K^+$ and $ Cl^-$ and pass through the filter, leaving the NMC powder. The solid material is dried in the air after the washing, to remove the water. \\
+
+\textbf{Step 7: Last annealing:}\\
+After the washing step, the samples are once again heated in the oven, this time at 600°C for 3h with a prior ramp of ??. This last step of the NMC 811 materials synthesis aims to release the CO2 gas that can still remains in the powder, or even some carbonates. It is also a way to effectively dry the material previously washed.\\
 
 \subsubsection{Ink preparation}
 
@@ -254,7 +281,7 @@ The three mixtures obtained are then heated at 500°C in an oven: first, a ramp 
 \subsection{Characterization precaution}
 
 
-\section{Results}
+\section{Results and discussion}
 \subsection{ICP results}
 \begin{figure}[H]
   \centering
@@ -264,12 +291,17 @@ The three mixtures obtained are then heated at 500°C in an oven: first, a ramp 
 \end{figure}
 \begin{figure}[H]
   \centering
+  \includegraphics[width=\textwidth]{output3.png}
+  \caption{Lithium specific ICP readings.}
+  \label{fig:example_image}
+\end{figure}
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.8\textwidth]{output2.png}
   \caption{ICP readings for the washing water.}
   \label{fig:example_image}
 \end{figure}
-\section{Discussion}
-\section{Conclussions}
+\section{Conclusion}
 
 
 \newpage

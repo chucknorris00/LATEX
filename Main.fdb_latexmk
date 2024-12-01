@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Main"] 1732799994.79721 "Main.aux" "Main.bbl" "Main" 1732800311.36967 0
+["bibtex Main"] 1733056063.8386 "Main.aux" "Main.bbl" "Main" 1733056066.3704 0
   "./Biblio.bib" 1732730626 6481 238f5c7b51c40c32435ad43155af163b ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Main.aux" 1732800310 12111 40b00dd36f71961103645ee2e437f2d7 "pdflatex"
+  "Main.aux" 1733056065 12302 cb5738ba47b444079650d03d115068cc "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1732800309.49483 "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" "Main.pdf" "Main" 1732800311.37071 0
+["pdflatex"] 1733056064.18023 "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" "Main.pdf" "Main" 1733056066.37127 0
   "C:/Users/santi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732694626 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/santi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1732698671 11548 1daace73ece52c25d4abfdcaf92f25bd ""
   "C:/Users/santi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730141119 11948357 ef6d9b966126357acffd82f60b704d4e ""
@@ -40,6 +40,7 @@
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1247596666 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
+  "C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -48,6 +49,7 @@
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettitlestring.sty" 1576433666 8371 9d55b8bd010bc717624922fb3477d92e ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty" 1643997108 492 1994775aa15b0d1289725a0b1bbc2d4c ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1643997108 1057 525c2192b5febbd8c1f662c9468335bb ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifxetex.sty" 1643997108 488 4565444a3e75e59cb2702dc42e18f482 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.sty" 1575399508 8356 7bbb2c2373aa810be568c29e333da8ed ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty" 1576433764 31769 002a487f55041f8e805cfbf6385ffd97 ""
@@ -74,6 +76,8 @@
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
+  "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
+  "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/pdftex.def" 1713599642 19440 9da9dcbb27470349a580fca7372d454b ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty" 1718270727 18363 b79c83eab17bf475b508f05e9807e605 ""
@@ -92,16 +96,17 @@
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Main.aux" 1732800310 12111 40b00dd36f71961103645ee2e437f2d7 "pdflatex"
-  "Main.bbl" 1732799995 1640 ec4cb37b1e4bed08cc22ef3252489c4e "bibtex Main"
-  "Main.lof" 1732800310 225 b5cf76cb13031699ed52723ad73302ec "pdflatex"
-  "Main.tex" 1732800070 14040 931c8637a30b2eab367c0bb6e22ebe96 ""
-  "Main.toc" 1732800310 2234 516dfeaff57c4f9588671d580599062c "pdflatex"
-  "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" 1732800070 14040 931c8637a30b2eab367c0bb6e22ebe96 ""
+  "Main.aux" 1733056065 12302 cb5738ba47b444079650d03d115068cc "pdflatex"
+  "Main.bbl" 1733056064 1640 ec4cb37b1e4bed08cc22ef3252489c4e "bibtex Main"
+  "Main.lof" 1733056065 325 760dd84ea136e6199dbf932c6534cb6c "pdflatex"
+  "Main.tex" 1733056060 17999 1149fa70bbdd790816fa693f76662dca ""
+  "Main.toc" 1733056065 2181 2954b97d8ec34a67dc5dc0043a51da58 "pdflatex"
+  "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" 1733056060 17999 1149fa70bbdd790816fa693f76662dca ""
   "images.png" 1730136612 4669 240268e109db712e48aba6e51861121f ""
   "lepmi_logo.png" 1730136616 13648 e56b7cbdcedfdb1b583263c91c7130ad ""
   "output.png" 1732799175 41896 07a469ef5c222c504b6bdaaa10b37a1e ""
   "output2.png" 1732800308 17006 985f16355e8f4ad962d1987aef618775 ""
+  "output3.png" 1732800992 32369 b2aa2891c700ef5124af843cad4d1c04 ""
   (generated)
   "Main.aux"
   "Main.lof"
