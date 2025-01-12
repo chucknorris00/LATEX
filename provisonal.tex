@@ -7,6 +7,7 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{float}
 \usepackage[a4paper, top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
 
@@ -29,7 +30,7 @@
   \vspace{2cm}
 
   \textbf{\Large Influence of KCl and NaCl Proportions in\\
-  ${Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}$ }\\ 
+  ${Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}$ \\ 
   \vspace{0.3cm}
   \textbf{\Large Molten Salt Synthesis for Li-ion Batteries}
     \vspace{4cm}
@@ -61,7 +62,10 @@
 \setcounter{page}{1}  % Start counting from 1
 \tableofcontents
 
-\newpage
+\listoffigures
+
+\listoftables
+
 \section{Abstract}
 \section {Introduction}
 
@@ -104,6 +108,18 @@ have been done to repurpose the waste of Li-ion batteries plants and turn them i
 
 
 \subsection{Close-up on the Molten Salts Method}
+A prior study by the Karlsruhe Institute of Technology  worked on methods to 
+synthesis of LNO using molten salts as a diffusive medium.
+The aim of this study was to create a model for single crystal
+layered lithium metal oxides (NCM's).\\
+Here the molten salts as a tool to produce a single crystal
+at relatively low temperatures.
+The selected salts were NaCl, KCl, CsCl and \(K_{2}SO_{4}\), 
+done at molar ratios to nickel from 1.0 to 4.0 \cite{meltingp}.\\
+The results by SEM and XRD methods showed that the molar ratio
+of the salts significantly affected the martials particle size with 
+higher salt ratios, yielding in larger particles but not a special effect on the particle size distribution.
+ The salt selection also affected the purity of the final sample \cite{meltingp}.
 
 \subsubsection{A Less Energy-Intensive Method}
 Traditional synthesis methods for NMC require temperatures exceeding 900°C, resulting in high energy consumption. One alternative to this is the introduction of a liquid diffusion medium into the process. The presence of a liquid phase during calcination accelerates the overall reaction kinetics, acting as a more efficient medium for particle growth and homogenization. Once the process is completed and the material has solidified, the liquid phase is no longer needed, as it could interfere with the purity of the target material. For this reason, molten salts are used. These salts can easily dissolve in water, allowing them to be washed away, ensuring the purity of the synthesized material after processing.\cite{Heuristics}
@@ -120,17 +136,19 @@ the electrode's crystal structure.
 \item Cost Effectiveness. The economic viability of the salt is also an important factor to consider.
 specially if the process is wanted for industrial applications. 
 \end{itemize}
+A mixture of NaCl and KCl is chosen for this process, as the combination of both salts lowers their melting point. This allows for the formation of a purely liquid phase at the temperature required for synthesizing NMC. Additionally, these salts are abundant and not expensive. Their ions are  large enough to not substitute lithium ions in the crystal lattice of the material during the washing step. \cite{Heuristics} \\
 
 \subsubsection{Single-crystal (SC) particles formation interest}
 
-The \textbf{molten salt synthesis} method is a technique producing single-crystal particles, unlike the polycrystalline particles typically obtained through the solid-state method. Using molten salts, which act as a reactive medium at high temperatures. In their liquid state, these salts provide an environment that enables free ion movement, facilitating controlled crystal growth. This process allows the formation of single-crystal particles by favorating uniform growth and minimizing the formation of grain boundaries that are characteristic of polycrystalline structures. \cite{SC}
-\\
+The \textbf{molten salt synthesis} method is a technique producing single-crystal particles, unlike the polycrystalline particles typically obtained through the solid-state method. Using molten salts, which act as a reactive medium at high temperatures. In their liquid state, these salts provide an environment that enables free ion movement, facilitating controlled crystal growth. This process allows the formation of single-crystal particles by favorating uniform growth and minimizing the formation of grain boundaries that are characteristic of polycrystalline structures.
 
-This phenomenon is more precisely known as \textbf{Ostwald ripening} \cite{oswald}, which plays a crucial role in the formation and growth of particles. When a mixture of particles of varying sizes is heated in the molten salts, smaller particles, which are thermodynamically less stable due to their higher surface energy, tend to dissolve. The ions released from these smaller particles migrate through the molten salt medium and redeposit onto larger particles, which are more stable because of their lower specific surface area. This process, enhanced by the high ionic mobility in molten salts, leads to a reduction in particle size dispersion and a gradual increase in average particle size. Over time, the smaller particles disappear entirely, leaving only the larger ones, which develop into well-defined single crystals.\cite{moltensalt1}
+This phenomenon is more precisely known as \textbf{Ostwald ripening}, which plays a crucial role in the formation and growth of particles. When a mixture of particles of varying sizes is heated in the molten salts, smaller particles, which are thermodynamically less stable due to their higher surface energy, tend to dissolve. The ions released from these smaller particles migrate through the molten salt medium and redeposit onto larger particles, which are more stable because of their lower specific surface area. This process, enhanced by the high ionic mobility in molten salts, leads to a reduction in particle size dispersion and a gradual increase in average particle size. Over time, the smaller particles disappear entirely, leaving only the larger ones, which develop into well-defined single crystals.
 
-Controlling the salt temperature and heating duration is crucial for tuning the final particle size. Higher temperatures and longer heating times accelerate the ripening process, resulting in larger particles. This precise control makes the molten salt method particularly advantageous to control size and morphology particles. \cite{moltensalt1} \\
+Controlling the salt temperature and heating duration is crucial for tuning the final particle size. Higher temperatures and longer heating times accelerate the ripening process, resulting in larger particles. This precise control makes the molten salt method particularly advantageous to control size and morphology particles. \\
 
-The focus of this study is to synthesize using this method as well as to evaluate how different proportions of NaCl and KCl in the salt mixture affect the final product (morphology, composition, purety) and to analyze the electrochemical performance of the NMC positive electrode material.\cite{meltingp}The morphology and performance of NMC 811 for lithium-ion technologies will be analyzed using characterization techniques: Scanning Electron Microscopy (SEM), X-Ray Diffraction spectroscpoy to identify the material phases as well as electrochemical characterization techniques on coin cells: Charge/discharge protocol. \\
+
+The focus of this study is to synthesize using this method as well as to evaluate how different proportions of NaCl and KCl in the salt mixture affect the final product (morphology, composition, purety) and to analyze the electrochemical performance of the NMC positive electrode material.\cite{meltingp}The morphology and performance of NMC 811 for lithium-ion technologies will be analyzed using characterization techniques: Scanning Electron Microscopy (SEM), X-Ray Diffraction spectroscpoy to identify the material phases as well as electrochemical characterization techniques on coin cells: Charge/discharge protocol.
+
 \section{State of Art}
 
 \subsection{Positive electrode materials}
@@ -170,6 +188,7 @@ its low charge retention and low cyclability.\cite{topo}
 \end{description}
 
 \subsection{Synthesis methods}
+
 The choice of synthesis method plays a critical role in determining the final properties of NMC materials. Key attributes such as tap density, particle size distribution, particle morphology (both primary and secondary shapes), and crystallinity are strongly influenced by the synthesis process. Additionally, the method chosen impacts the presence of impurities, the overall quality of the final product, and its electrochemical performance. \\
 
 Various synthesis methods are available for producing NMC, including co-precipitation, solid-state reaction, sol-gel processes, hydrothermal methods, and spray pyrolysis \cite{process}. 
@@ -248,20 +267,7 @@ The intensity of the diffracted beam is related to the number of atoms in the cr
 Today, databases can compare the diffraction spectra with the ones of known materials, to identify the phases present in the sample.\\
 
 \subsubsection{Electrochemical characterization}
-
-\subsection{Prior studies on Molten Salt Synthesis}
-A prior study by the Karlsruhe Institute of Technology  worked on methods to 
-synthesis of LNO using molten salts as a diffusive medium.
-The aim of this study was to create a model for single crystal
-layered lithium metal oxides (NCM's).\\
-Here the molten salts as a tool to produce a single crystal
-at relatively low temperatures.
-The selected salts were NaCl, KCl, CsCl and \(K_{2}SO_{4}\), 
-done at molar ratios to nickel from 1.0 to 4.0 \cite{meltingp}.\\
-The results by SEM and XRD methods showed that the molar ratio
-of the salts significantly affected the martials particle size with 
-higher salt ratios, yielding in larger particles but not a special effect on the particle size distribution.
- The salt selection also affected the purity of the final sample \cite{meltingp}. \\
+ 
 \section {Methodology} 
 \subsection{NMC 811 electrode synthesis}
 
@@ -321,13 +327,15 @@ Each one of the grounded or ball-milled NMC samples are then washed using vacuum
 After the washing step, the samples are once again heated in the oven, this time at 600°C for 3h with a prior ramp of ??. This last step of the NMC 811 materials synthesis aims to release the CO2 gas that can still remains in the powder, or even some carbonates. It is also a way to effectively dry the material previously washed.\\
 
 \subsubsection{Ink preparation}
-To make a functioning possitive electrode to be tested inside a coin cell, 
+To make a functioning positive electrode to be tested inside a coin cell, 
 the NMC 811 obtained needs to be mixed with a conductive carbon and a binder into a slurry.
-This mixture needs to be composed by 80\% of NMC 811, 10\% of conductive carbon and 10\% of binder.\\
-Here, the carbon black is used as a conductive matrix, and helps create ionic paths for the electrolyte 
-to fill the pores and have a good contact with the NMC 811\cite{Itou}. The binder is a polymer called polyvinylidene difluoride (PVDF),
+This mixture needs to be composed by 80\% of NMC 811 (active material), 10\% of carbon black (CB) and 10\% of binder (PVDF).\\
+
+Here, the carbon black is used as a conductive matrix, and helps create ionic paths for the electrolyte to fill the pores and have a good contact with the NMC 811\cite{Itou}. The binder is a polymer called polyvinylidene difluoride (PVDF),
 is used to keep the material together.\\
+
 NMP (N-Methyl-2-pyrrolidone) is used as the solvent to adjust the viscosity of the ink. It should be added gradually to avoid clumps. Cyclohexane can be added to improve dispersion of active material in the mixture, it evaporates quickly under the hood when heated to 80°C.\\
+
 \textbf{Process of Ink Preparation:}\\
 \begin{itemize}
   \item The NMC, carbon black and PVDF are weighted in the correct proportions that are represented on 
@@ -341,19 +349,22 @@ NMP (N-Methyl-2-pyrrolidone) is used as the solvent to adjust the viscosity of t
     \item The materials are first mixed in a speed mixer (Hauschild SpeedMixer DAC 250.3 SP)  at 1500 rpm for 2 minutes to ensure all particles are coated. A second mixing step at 2500 rpm for 8 minutes, with additional NMP, is performed to achieve the desired consistency.
     \item The ink is then coated onto aluminum foil using an adjusted blade of 15 um. Proper ventilation must be ensured during the process, and the blade used for coating should be cleaned beforehand. Coating is performed at a low speed for uniform application. The desired wet thickness is 150 µm, which dries to 20-30 µm, when applied on aluminum.
     \item The electrode coating was dried in an oven for 12 hours, after which it was cut using a punch cutter. Three electrodes, each with a diameter of 12 mm, were then weighed to ensure consistent weight across samples, thereby maintaining the same active material mass.
-    \begin{itemize}
-      \item The active material mass (mg) was calculated as:\\
-       Active material mass (mg) =  80\% \(\times\) total mass of NMC811.
-    \end{itemize}
-    \item The thickness of the coating was measured using a … . This measurement was used to calculate the coating volume and subsequently the porosity:\\
-    \begin{center}
-    Porosity (\%) = 100 \(\times\) (1 - \(\frac{Coating Volume }{Theoretical Volume }\))\\
-    
-  \end{center}
-    Where the  coating volume is the thickness times tne area of the electrode. 
-  \end{itemize}
-  
 \end{itemize}
+
+The active material mass (mg) was calculated as:
+
+\begin{equation}
+m_{\text{active}} \, (\text{mg}) = 0.8 \times m_{\text{total}} \, \quad \text{(for NMC811)}
+\end{equation}
+
+\item The thickness of the coating was measured using a thickness gauge. This measurement was used to calculate the coating volume and subsequently the porosity:
+
+\begin{equation}
+\text{Porosity} (\%) = 100 \cdot \left( 1 - \frac{\text{Coating Volume}}{\text{Theoretical Volume}} \right)
+\end{equation}
+
+Where the  coating volume is the thickness times the area of the electrode. 
+  
 \begin{table}[h!]
   \centering
   \begin{adjustbox}{width=1\textwidth}
@@ -374,76 +385,56 @@ NMP (N-Methyl-2-pyrrolidone) is used as the solvent to adjust the viscosity of t
   \label{t3}
 \end{table}
 \subsection{Coin cell protocol}
-\subsubsection{Coin cell assembly}
-The coin cells were assembled inside a glovebox, which is a controlled environment that tends
-to minimize the humidity in the air for safety reasons. A single coin cell was assembled for each NMC sample, using the following components in addition to the NMC electrode:
-\begin {itemize}
-\item Casing: The coin cell casing is made of stainless steel and its function is to hold all the components inside it and be electrically conductive.
-\item Seal: The seal is made of a polymeric material and assures no opening or leakage of the assembled cell.  
-\item Separator (Whatman Paper): The separator is a porous membrane that separates the anode and cathode, preventing short circuits, it also holds the liquid electrolyte. 
-\item Electrolyte: The electrolyte used was 1M \(LiPF_6\) in EC:EMC (3:7).
-\item Anode: The anode used was lithium metal, this is important to evaluate the NMC as a half-cell system. 
-\item Spring: The spring is used to assure contact and pressure between the layered components. 
-\item Spacers (500 micrometers): Two spacers were used per cell and their function is to assure the correct pressure between the components and the filling of the cell, preventing any movement that can cause electrical contact. 
-\end{itemize}
 
-\subsubsection{Coin cell testing}
-The coin cells prepared are tested in a chamber, at 25°C. The measurements are done with the software EC-Lab and a potentiostat , in galvanostatic mode. The first cycle is done with a C/10 regime, and the theoretical capacity is obtained by multiplying the mass of active material put on the NMC positive electrode by an average value of the theoretical massic capacity of NMC, which equals to 200 mAh/g. The positive electrode is considered to be the limiting one in the system, hence its capacity is the coin cell’s one. 
-The electrochemical protocol used consists of a charge and a discharge of the coin cells, their voltage varying between 4.3V maximum during charge and 3V minimum during discharge. During charge, the lithium inside the NMC (anode) is oxidized to Li+. These cations migrate towards the Li metal (cathode) to be reduced back into Li. When the maximum voltage (E=4.3V) is reached, it is held during 1h in order to remove all the lithium from the NMC positive electrode. Before the discharge, a rest of 1h is done in order to let the coin cell homogenize again, in case there are some lithium gradients for instance. The discharge is then measured, until the voltage reaches 3V. During this third step, the reverse reactions occur. At the Li metal (now the anode), lithium ions are produced and migrate towards the NMC positive electrode (cathode) where their reduction provides Li atoms that intercalate in the NMC\cite{Heuristics}.
-\begin{table}[H]
-  \centering
-  \begin{tabular}{|c|c|c|c|}
-    \hline
-    \textbf{NMC sample (NaCl:KCl ratio used during synthesis)} & \textbf{1:1} & \textbf{4:6} & \textbf{6:4} \\
-    \hline
-    \textbf{Potential at I=0 A (V)} & 3.328 & 3.142 & 3.18 \\
-    \hline
-    \textbf{Theoretical capacity (mAh)} & 0.848 & 0.768 & 0.672 \\
-    \hline
-  \end{tabular}
-  \caption{ Potential of the coin cells tested with NMC positive electrode synthesized with different salt ratios before the first cycle, and coin cells’ theoretical capacity.}
-  \label{tab:NMC_samples}
-\end{table}
 \subsection{Characterization precaution}
 
 
 \section{Results and discussion}
-\subsection{SEM images and particle size analysis}
-\begin{figure}[H]
-  \centering
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{NMC11SEMDIST.png}
-    
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{NMC_11_legend.png}
-  \end{minipage}
-  \caption{SEM images of NMC 811 1:1 sample and the particle size distribution.}
-  \label{fig:example_image}
-\end{figure}
-\subsection{XRD analysis}
 
-\subsection{Lithium amount in  \({Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}\)}
+\subsection{Morphology and composition analysis}
+\subsubsection{Homogeneity of the NMC material}
+\subsubsection{Size and shape analysis}
+\subsubsection{XRD analysis: phase analysis}
+%\subsubsection{Lithium amount in  ${Li}_{x}(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}$ }
+
+\begin{figure}[H]
+    \centering
+    % Ligne 1 : Première sous-figure avec deux images côte à côte
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{NMC_11_legend.png}
+        \caption{NMC 11 }
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{NMC11SEMDIST.png}
+        \caption{}
+    \end{subfigure}
+
+    \label{fig:SEM_Distributions}
+\end{figure}
+
+\subsection{Understanding the steps of NMC synthesis}
+
 
 \section{Conclusion}
 
 
-
+\bibliographystyle{plain}  
+\bibliography{Biblio}
 
 \section{Annexes} 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{output.png}
-  \caption{Most representative ICP readings for every sample.}
+  \caption{ICP readings direct results for every sample.}
   \label{fig:example_image}
 \end{figure}
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{output3.png}
-  \caption{Lithium specific ICP readings.}
+  \caption{Lithium specific ICP readings direct result.}
   \label{fig:example_image}
 \end{figure}
 \begin{figure}[H]
@@ -452,13 +443,6 @@ The electrochemical protocol used consists of a charge and a discharge of the co
   \caption{ICP readings for the washing water }
   \label{fig:example_image}
 \end{figure}
-\newpage
-\listoffigures
-
-\listoftables
-
-\bibliographystyle{plain}
-\bibliography{Biblio}
 
 \end{document}
 

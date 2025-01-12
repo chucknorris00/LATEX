@@ -1,4 +1,23 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{NMC811}
+Mehdi Ahangari, Benedek Szalai, Josue Lujan, Meng Zhou, and Hongmei Luo.
+\newblock Advancements and challenges in high-capacity ni-rich cathode
+  materials for lithium-ion batteries.
+\newblock {\em Materials}, 17(4), 2024.
+
+\bibitem{Itou}
+Yuichi Itou, Nobuhiro Ogihara, and Shigehiro Kawauchi.
+\newblock Role of conductive carbon in porous li-ion battery electrodes
+  revealed by electrochemical impedance spectroscopy using a symmetric cell.
+\newblock {\em The Journal of Physical Chemistry C}, 124(10):5559--5564, 2020.
+
+\bibitem{NMCintro}
+Jin~Kyo Koo, Hyeongjun Choi, Jae kwon Seo, Soo~Min Hwang, Jaewoo Lee, and
+  Young-Jun Kim.
+\newblock Microstructure engineering of nickel-rich oxide/carbon composite
+  cathodes for fast charging of lithium-ion batteries.
+\newblock {\em Ceramics International}, 48(21):31859--31865, 2022.
 
 \bibitem{process}
 Monu Malik, Ka~Ho Chan, and Gisele Azimi.
@@ -13,16 +32,42 @@ Alex Mesnier and Arumugam Manthiram.
 \newblock {\em ACS Applied Materials \& Interfaces}, 15(10):12895--12907, 2023.
 \newblock PMID: 36857760.
 
+\bibitem{moltensalt1}
+Ivan~A. Moiseev, Aleksandra~A. Savina, Alina~D. Pavlova, Tatiana~A. Abakumova,
+  Vladislav~S. Gorshkov, Egor~M. Pazhetnov, and Artem~M. Abakumov.
+\newblock Single crystal ni-rich nmc cathode materials for lithium-ion
+  batteries with ultra-high volumetric energy density.
+\newblock {\em Energy Adv.}, 1:677--681, 2022.
+
+\bibitem{Olivine}
+Tatsuya Nakamura, Yoshiki Miwa, Mitsuharu Tabuchi, and Yoshihiro Yamada.
+\newblock Structural and surface modifications of lifepo4 olivine particles and
+  their electrochemical properties.
+\newblock {\em Journal of The Electrochemical Society}, 153(6):A1108, apr 2006.
+
 \bibitem{RMA}
 European Parlament.
 \newblock Regulation (eu) 2024/1252 of the european parliament and of the
   councils.
-\newblock 2014.
+\newblock {\em Official Journal of the European Union}, 2014.
+
+\bibitem{oswald}
+Yuvraj Singh, Jaya~Gopal Meher, Kavit Raval, Farooq~Ali Khan, Mohini Chaurasia,
+  Nitin~K. Jain, and Manish~K. Chourasia.
+\newblock Nanoemulsion: Concepts, development and applications in drug
+  delivery.
+\newblock {\em Journal of Controlled Release}, 252:28--49, 2017.
 
 \bibitem{topo}
 Topolovek Stephan.
 \newblock {\em Script: Funtional Materials}.
 \newblock TU Graz, Graz, Austria, 2022.
+
+\bibitem{LCO}
+I.~Turner, N.~Bamber, J.~Andrews, and N.~Pelletier.
+\newblock Systematic review of the life cycle optimization literature, and
+  recommendations for performance of life cycle optimization studies.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 208:115058, 2025.
 
 \bibitem{meltingp}
 Wessel Van~den Bergh, Rui Yao, Ruizhuo Zhang, Aleksandr Kondrakov, Jürgen
