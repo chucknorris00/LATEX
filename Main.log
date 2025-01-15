@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  12 JAN 2025 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  15 JAN 2025 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,9 +304,6 @@ LaTeX Warning: Label `fig:example_image' multiply defined.
 
 LaTeX Warning: Label `fig:example_image' multiply defined.
 
-
-LaTeX Warning: Label `fig:example_image' multiply defined.
-
 )
 \openout1 = `Main.aux'.
 
@@ -575,87 +572,157 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has 
                                                   \__shipout_drop_firstpage_...
 l.384 \item E
              lectrolyte: The electrolyte used was 1M \(LiPF_6\) in EC:EMC (3...]
-<NMC11SEMDIST.png, id=184, 221.628pt x 229.8186pt>
-File: NMC11SEMDIST.png Graphic file (type png)
-<use NMC11SEMDIST.png>
-Package pdftex.def Info: NMC11SEMDIST.png  used on input line 416.
-(pdftex.def)             Requested size: 204.85802pt x 212.42809pt.
-<NMC_11_legend.png, id=185, 631.35875pt x 468.24937pt>
-File: NMC_11_legend.png Graphic file (type png)
-<use NMC_11_legend.png>
-Package pdftex.def Info: NMC_11_legend.png  used on input line 422.
-(pdftex.def)             Requested size: 204.85802pt x 151.93631pt.
+<tabl.png, id=187, 690.1785pt x 257.16075pt>
+File: tabl.png Graphic file (type png)
+<use tabl.png>
+Package pdftex.def Info: tabl.png  used on input line 420.
+(pdftex.def)             Requested size: 341.43437pt x 127.21843pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--423
+
+ []
+
 
 
 [9
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.427 \subsection
-                 {XRD analysis}]
+l.423 \end{figure}
+                  ]
+<oneone.png, id=195, 576.35326pt x 260.172pt>
+File: oneone.png Graphic file (type png)
+<use oneone.png>
+Package pdftex.def Info: oneone.png  used on input line 447.
+(pdftex.def)             Requested size: 341.43437pt x 154.12738pt.
+<sixfour.png, id=196, 570.33075pt x 246.9225pt>
+File: sixfour.png Graphic file (type png)
+<use sixfour.png>
+Package pdftex.def Info: sixfour.png  used on input line 453.
+(pdftex.def)             Requested size: 341.43437pt x 147.82683pt.
+<foursix.png, id=197, 388.45125pt x 284.262pt>
+File: foursix.png Graphic file (type png)
+<use foursix.png>
+Package pdftex.def Info: foursix.png  used on input line 459.
+(pdftex.def)             Requested size: 341.43437pt x 249.8607pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 429.
+
+LaTeX Warning: Reference `emmanuel' on page 10 undefined on input line 462.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 429.
+LaTeX Warning: Reference `emmanuel' on page 10 undefined on input line 462.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 429.
+Underfull \hbox (badness 10000) in paragraph at lines 425--464
 
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 429.
-
-<output.png, id=191, 970.5861pt x 542.7477pt>
-File: output.png Graphic file (type png)
-<use output.png>
-Package pdftex.def Info: output.png  used on input line 439.
-(pdftex.def)             Requested size: 426.79135pt x 238.66064pt.
-<output3.png, id=192, 977.0904pt x 536.2434pt>
-File: output3.png Graphic file (type png)
-<use output3.png>
-Package pdftex.def Info: output3.png  used on input line 445.
-(pdftex.def)             Requested size: 426.79135pt x 234.2295pt.
 
 
 [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.448 \end{figure}
-                   <./NMC11SEMDIST.png (PNG copy)> <./NMC_11_legend.png>]
-<output2.png, id=199, 608.5134pt x 422.7795pt>
-File: output2.png Graphic file (type png)
-<use output2.png>
-Package pdftex.def Info: output2.png  used on input line 451.
-(pdftex.def)             Requested size: 341.43437pt x 237.21938pt.
+l.465 
+       <./tabl.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 466--482
+
+ []
+
 
 
 [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.455 \newpage
-              
+l.482 \end{table}
+                  <./oneone.png> <./sixfour.png> <./foursix.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 490.
+
+<output.png, id=213, 970.5861pt x 542.7477pt>
+File: output.png Graphic file (type png)
+<use output.png>
+Package pdftex.def Info: output.png  used on input line 500.
+(pdftex.def)             Requested size: 426.79135pt x 238.66064pt.
+<output3.png, id=214, 977.0904pt x 536.2434pt>
+File: output3.png Graphic file (type png)
+<use output3.png>
+Package pdftex.def Info: output3.png  used on input line 506.
+(pdftex.def)             Requested size: 426.79135pt x 234.2295pt.
+
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.509 \end{figure}
+                  ]
+<output2.png, id=222, 608.5134pt x 422.7795pt>
+File: output2.png Graphic file (type png)
+<use output2.png>
+Package pdftex.def Info: output2.png  used on input line 512.
+(pdftex.def)             Requested size: 341.43437pt x 237.21938pt.
+
+
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.455 \newpage
-               <./output.png> <./output3.png>]
-
-[12
+l.516 \newpage
+              
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.455 \newpage
-               <./output2.png>] (Main.lof)
+l.516 \newpage
+               <./output.png> <./output3.png>]
+
+[14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.516 \newpage
+               <./output2.png>] (Main.lof
+
+LaTeX Warning: Reference `emmanuel' on page 15 undefined on input line 2.
+
+)
 \tf@lof=\write4
 \openout4 = `Main.lof'.
 
@@ -665,9 +732,9 @@ l.455 \newpage
 
  (Main.bbl
 
-[13])
+[15])
 
-[14] (Main.aux)
+[16] (Main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -681,17 +748,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11446 strings out of 473896
- 181158 string characters out of 5726440
- 585494 words of memory out of 5000000
- 34081 multiletter control sequences out of 15000+600000
+ 11472 strings out of 473896
+ 181440 string characters out of 5726440
+ 585889 words of memory out of 5000000
+ 34101 multiletter control sequences out of 15000+600000
  568182 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,10n,93p,1012b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,10n,93p,1292b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Main.pdf (15 pages, 1400987 bytes).
+Output written on Main.pdf (17 pages, 1423740 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 324 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 468 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

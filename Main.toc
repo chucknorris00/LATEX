@@ -27,10 +27,11 @@
 \contentsline {subsection}{\numberline {4.2}Coin cell protocol}{8}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Coin cell assembly}{8}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Coin cell testing}{9}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Characterization precaution}{10}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Results and discussion}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}SEM images and particle size analysis}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}XRD analysis}{11}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Lithium amount in \({Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}\)}{11}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Conclusion}{11}{section.6}%
-\contentsline {section}{\numberline {7}Annexes}{11}{section.7}%
+\contentsline {subsection}{\numberline {4.3}Characterization precaution}{9}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Results and discussion}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Morphology and Composition Analysis}{9}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Homogeneity of the NMC material}{9}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Size and shape analysis}{10}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Lithium amount in \({Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}\)}{13}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{13}{section.6}%
+\contentsline {section}{\numberline {7}Annexes}{13}{section.7}%

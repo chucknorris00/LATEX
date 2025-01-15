@@ -408,24 +408,85 @@ The electrochemical protocol used consists of a charge and a discharge of the co
 
 
 \section{Results and discussion}
-\subsection{SEM images and particle size analysis}
+\subsection{Morphology and Composition Analysis}
+
+The morphology and composition of NMC particles was done using at first Scanning Electron Microscope.
+
+\subsubsection{Homogeneity of the NMC material}
+The EDX coupled with SEM has led to the conclusion that Ni, Mn and Co are well dispersed into the material, in the form of NMC811 particles. 
+For example, according to table \ref{tabl}, the only-washed material prepared with 4:6 salt ratio has approximately 8 times more nickel than manganese and cobalt in its composition as expected for a NMC811 composition. However, the non-zero quantity of remaining chloride should be noted, as well as a small amount of aluminium, which can be a pollutant in the composition. This species have probably been integrated during the synthesis process.\\
 \begin{figure}[H]
   \centering
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{NMC11SEMDIST.png}
-    
-  \end{minipage}
-  \hfill
-  \begin{minipage}{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{NMC_11_legend.png}
-  \end{minipage}
-  \caption{SEM images of NMC 811 1:1 sample and the particle size distribution.}
-  \label{fig:example_image}
+  \includegraphics[width=0.8\textwidth]{tabl.png}
+  \caption{EDX Composition of NMC 811 4:6 sample.}
+  \label{tabl}
 \end{figure}
-\subsection{XRD analysis}
+\subsubsection{Size and shape analysis}
+The size of the NMC particles being too small (\(<1\) micrometer) significantly affected 
+the quality of the SEM images. The automatic calculation 
+of the software ImageJ by Fiji relies on distinct boundaries 
+and clear contrast to detect and measure particles, which the
+ blurry images could not provide. The high sharpness required
+  to capture such fine details introduced challenges in
+   obtaining clear and distinguishable images. Consequently, 
+   the pictures appear blurry, making it difficult for the 
+   software to accurately identify and measure individual 
+   particle boundaries. Due to this limitation, the particle
+    diameter distribution was calculated manually using Fiji,
+     by measuring the length of 200 particles and to 
+     consequently create a distribution on MATLAB. 
+     This method gives an estimation of this size 
+     distribution, although the precision might not
+      be as high as the automatic one. The 4:6 was too blurry
+       to be measured even manually, as the particles were 
+       very small. The results can be seen on figure \ref{distributions}\\
+      \begin{figure}[H]
+        \centering
+        \begin{minipage}{0.8\textwidth}
+          \centering
+          \includegraphics[width=\textwidth]{oneone.png}
+          
+        \end{minipage}
+        \vfill
+        \begin{minipage}{0.8\textwidth}
+          \centering
+          \includegraphics[width=\textwidth]{sixfour.png}
+          
+        \end{minipage}
+        \vfill
+        \begin{minipage}{0.8\textwidth}
+          \centering
+          \includegraphics[width=\textwidth]{foursix.png}
+          
+        \end{minipage}
+        \caption{ SEM (washing and annealing without ball-milling) based on \ref{emmanuel} and SEM analysis with FIJI software, ImageJ, distribution made on MATLAB for three different salts proportions (NaCl: KCl).}
+\label{distributions}
+      \end{figure}
 
+The comparison between the NMC materials with various NaCl:KCl mixtures (1:1 and 6:4) highlights notable differences in particle size, morphology, and degree of aggregation. With the 1:1 mixture, the particle size distribution is relatively distributed with a peak around 130 nm. Concerning the material morphology, its diversity with a mix of rounded and cubic particles suggests a balanced influence of both salts on the crystallization process, leading to well-defined and moderately homogeneous structures. As for the 6:4 mixture (higher NaCl content), it features larger particles with a narrow size distribution, peaking around 150 nm. Moreover, this material displays flatter and more cubic shapes, reflecting NaCl's dominance and its tendency to promote planar crystal growth. On the contrary, the 4:6 mixture (higher KCl content) is characterized by smaller, less-defined, and more rounded particles. It also shows a higher degree of aggregation, with particles forming clusters rather than remaining distinct. These differences indicate that increasing the KCl proportion affects the crystallization dynamics, resulting in less defined shapes and a greater tendency for particles to agglomerate. \\
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{NaCl:KCl proportion} & \textbf{Size (nm)} & \textbf{Distribution} \\
+    \hline
+    1:1 & 130 & Homogeneous in shape and sizes \\
+    \hline
+    6:4 & 150 & Predominance of squared and flat particles \\
+    \hline
+    4:6 & smaller & Predominance of rounded particles \\
+    \hline
+  \end{tabular}
+  \caption{Particle size and morphology summary for different NaCl:KCl proportions.}
+  \label{tab:particle_size_distribution}
+\end{table}
+The morphology of active particles is a parameter of prime importance in our case, as it directly impacts battery performance. Round particles offer better mechanical stability by reducing stress concentration points, which lowers the risk of cracking and improves long-term durability. Flat particles, with their exposed facets, provide higher specific surface area, enabling faster electrochemical reactions. However, this type of grain is more prone to mechanical and chemical degradation due to stress accumulation at the edges. The choice between these morphologies affected by the NaCl/KCl ratio involves a balance between performance (higher capacity is expected with plate particles) and durability (round particles), depending on the specific application requirements. \\
+
+Based on this theoretical information, a higher capacity is expected for the coin cell with the NMC material prepared with a 6:4 salts ratio, and the lower one should be with the 4:6 salts ratio. Regarding durability, the most durable is expected to be the material prepared with a salts ratio of 4:6, then 1:1 and finally 6:4.\\
+
+By comparing the obtained particle size with those reported in other NMC molten-salt-based synthesis studies, the particles obtained in this work (Figure \ref{distributions}) are the smallest range observed. Jian Zhou et al. used a similar protocol but with a different lithium source \(Li_2CO_3\) instead of LiOH, as employed in this project, and reported 1 to 5 micrometers particles using the same salt-to-NMC ratio. When the salt amount was significantly increased relative to the NMC precursors over 40 times more salt than NMC,they achieved particle sizes of 0.1 micrometers. This ratio, however, greatly exceeds the salt proportion used in this study, highlighting a possible other phenomenon causing the particle's size reduction (at first that something happened differently)\cite{Jian}.\\
+
+In the case of the other washing protocol (ball milling + washing (BM+W)), the size as well as the morphology of the NMC particles is similar. This observation implies that the additional ball milling step did not affect the particle size, but as these grains are very small, the experiment is  to be done with bigger particle synthesis to see if this assumption remains true.\\
 \subsection{Lithium amount in  \({Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}\)}
 
 \section{Conclusion}
