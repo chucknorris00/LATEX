@@ -6,6 +6,14 @@ Mehdi Ahangari, Benedek Szalai, Josue Lujan, Meng Zhou, and Hongmei Luo.
   materials for lithium-ion batteries.
 \newblock {\em Materials}, 17(4), 2024.
 
+\bibitem{capacity}
+Konstantin Egorov, Wengao Zhao, Kristian Knemeyer, Alejandro~Nico Filippin,
+  Andrea Giraldo, and Corsin Battaglia.
+\newblock Mitigating first-cycle capacity losses in nmc811 via lithicone layers
+  grown by molecular layer deposition.
+\newblock {\em ACS Applied Materials \& Interfaces}, 15(16):20075--20080, 2023.
+\newblock PMID: 37040335.
+
 \bibitem{Itou}
 Yuichi Itou, Nobuhiro Ogihara, and Shigehiro Kawauchi.
 \newblock Role of conductive carbon in porous li-ion battery electrodes
@@ -18,6 +26,19 @@ Jin~Kyo Koo, Hyeongjun Choi, Jae kwon Seo, Soo~Min Hwang, Jaewoo Lee, and
 \newblock Microstructure engineering of nickel-rich oxide/carbon composite
   cathodes for fast charging of lithium-ion batteries.
 \newblock {\em Ceramics International}, 48(21):31859--31865, 2022.
+
+\bibitem{shape}
+Joon~Kyung Koong and George~P. Demopoulos.
+\newblock Tuning molten-salt-mediated calcination in promoting single-crystal
+  synthesis of ni-rich linixmnycozo2 cathode materials.
+\newblock {\em Batteries}, 10(11), 2024.
+
+\bibitem{tango}
+Enze Li, Peiyuan Ye, Wenting Cheng, Huaigang Cheng, Zhiping Du, and Fangqin
+  Cheng.
+\newblock Selective adsorption of octadecylamine hydrochloride on the surface
+  of kcl crystal: adsorption energy based on density functional theory.
+\newblock {\em Adsorption}, 25, 11 2019.
 
 \bibitem{process}
 Monu Malik, Ka~Ho Chan, and Gisele Azimi.
@@ -76,6 +97,20 @@ Wessel Van~den Bergh, Rui Yao, Ruizhuo Zhang, Aleksandr Kondrakov, Jürgen
   single-crystalline linio2.
 \newblock {\em J. Mater. Chem. A}, 12:8683--8688, 2024.
 
+\bibitem{B}
+Dapeng Wang, Ilias Belharouak, Gary~M. Koenig, Guangwen Zhou, and Khalil Amine.
+\newblock Growth mechanism of ni0.3mn0.7co3 precursor for high capacity li-ion
+  battery cathodes.
+\newblock {\em J. Mater. Chem.}, 21:9290--9295, 2011.
+
+\bibitem{lithiation}
+Chao Xu, Katharina Märker, Juhan Lee, Amoghavarsha Mahadevegowda, Philip
+  Reeves, Sarah Day, Matthias Groh, Steffen Emge, Caterina Ducati, B.~Layla
+  Mehdi, Chiu Tang, and Clare Grey.
+\newblock Bulk fatigue induced by surface reconstruction in layered ni-rich
+  cathodes for li-ion batteries.
+\newblock {\em Nature Materials}, 20:1--9, 01 2021.
+
 \bibitem{precalci}
 Bixian Ying, Jack~R. Fitzpatrick, Zhenjie Teng, Tianxiang Chen, Tsz
   Woon~Benedict Lo, Vassilios Siozios, Claire~A. Murray, Helen E.~A. Brand,
@@ -84,6 +119,13 @@ Bixian Ying, Jack~R. Fitzpatrick, Zhenjie Teng, Tianxiang Chen, Tsz
 \newblock Monitoring the formation of nickel-poor and nickel-rich oxide cathode
   materials for lithium-ion batteries with synchrotron radiation.
 \newblock {\em Chemistry of Materials}, 35(4):1514--1526, 2023.
+
+\bibitem{mambo}
+Han Yu, Yan Gao, James Kirtley, Gabriel Borgmeyer, Xiaoqing He, and Xinhua
+  Liang.
+\newblock Recovery of degraded ni-rich nmc811 particles for lithium-ion
+  batteries.
+\newblock {\em Journal of The Electrochemical Society}, 169, 05 2022.
 
 \bibitem{Jian}
 Jian Zhu and Guoying Chen.

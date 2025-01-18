@@ -1,5 +1,12 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces EDX Composition of NMC 811 4:6 sample.}}{10}{figure.1}%
 \contentsline {figure}{\numberline {2}{\ignorespaces SEM (washing and annealing without ball-milling) based on \ref {emmanuel} and SEM analysis with FIJI software, ImageJ, distribution made on MATLAB for three different salts proportions (NaCl: KCl).}}{11}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Most representative ICP readings for every sample.}}{13}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Lithium specific ICP readings.}}{13}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces ICP readings for the washing water }}{14}{figure.5}%
+\contentsline {figure}{\numberline {3}{\ignorespaces XRD patterns plotted on Matlab of the NMC 811 synthesized with a salt ratio of 1:1 where NMC811 [NMC811DRX] (red), NaCl and KCl [KCl] a)no ball-milling before washing, with annealing and b) with ball-milling before washing but no annealing}}{13}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces SEM picture coupled with EDX mapping of chlorine and potassium in the NMC synthesized with a NaCl:KCl ratio equals to 6:4 after washing and annealing.}}{14}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces a) SEM coupled with EDX picture and EDX mappings of b) chlorine, c) cobalt, d) nickel in the NMC precursor synthesized with a NaCl:KCl ratio equals to 1:1 after pre-calcination}}{16}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces SEM coupled with EDX picture and b) EDX mappings of nickel in the NMC synthetized with a NaCl:KCl ratio equals to 1:1 after calcination}}{17}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Size distribution of NMC particles in a material prepared with a NaCl:KCl ratio of 1:1 a) between precalcination and calcination, b) after calcination (see Appendix for the SEM pictures studied) }}{17}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces XRD patterns after precalcination using NaCl:KCl (6:4) molten salts to synthesize NMC811, where NMC811 \cite {mambo} (red), NaCl and KCl [KCl], LiCl [LiCl]}}{18}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces XRD patterns after calcination using NaCl:KCl (1:1) molten salts to synthesize NMC811.}}{18}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Most representative ICP readings for every sample.}}{19}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Lithium specific ICP readings.}}{19}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces ICP readings for the washing water }}{20}{figure.12}%

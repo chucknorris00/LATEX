@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  15 JAN 2025 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.28)  18 JAN 2025 12:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -572,7 +572,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has 
                                                   \__shipout_drop_firstpage_...
 l.384 \item E
              lectrolyte: The electrolyte used was 1M \(LiPF_6\) in EC:EMC (3...]
-<tabl.png, id=187, 690.1785pt x 257.16075pt>
+<tabl.png, id=199, 690.1785pt x 257.16075pt>
 File: tabl.png Graphic file (type png)
 <use tabl.png>
 Package pdftex.def Info: tabl.png  used on input line 420.
@@ -590,17 +590,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has 
                                                   \__shipout_drop_firstpage_...
 l.423 \end{figure}
                   ]
-<oneone.png, id=195, 576.35326pt x 260.172pt>
+<oneone.png, id=207, 576.35326pt x 260.172pt>
 File: oneone.png Graphic file (type png)
 <use oneone.png>
 Package pdftex.def Info: oneone.png  used on input line 447.
 (pdftex.def)             Requested size: 341.43437pt x 154.12738pt.
-<sixfour.png, id=196, 570.33075pt x 246.9225pt>
+<sixfour.png, id=208, 570.33075pt x 246.9225pt>
 File: sixfour.png Graphic file (type png)
 <use sixfour.png>
 Package pdftex.def Info: sixfour.png  used on input line 453.
 (pdftex.def)             Requested size: 341.43437pt x 147.82683pt.
-<foursix.png, id=197, 388.45125pt x 284.262pt>
+<foursix.png, id=209, 388.45125pt x 284.262pt>
 File: foursix.png Graphic file (type png)
 <use foursix.png>
 Package pdftex.def Info: foursix.png  used on input line 459.
@@ -656,71 +656,231 @@ Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
+<XRD_A.png, id=229, 462.72874pt x 489.83pt>
+File: XRD_A.png Graphic file (type png)
+<use XRD_A.png>
+Package pdftex.def Info: XRD_A.png  used on input line 504.
+(pdftex.def)             Requested size: 204.85802pt x 216.85626pt.
+<XRD_B.png, id=230, 464.23438pt x 501.875pt>
+File: XRD_B.png Graphic file (type png)
+<use XRD_B.png>
+Package pdftex.def Info: XRD_B.png  used on input line 510.
+(pdftex.def)             Requested size: 204.85802pt x 221.46895pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 490.
+Underfull \hbox (badness 10000) in paragraph at lines 491--515
 
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 490.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 490.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 490.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 490.
-
-<output.png, id=213, 970.5861pt x 542.7477pt>
-File: output.png Graphic file (type png)
-<use output.png>
-Package pdftex.def Info: output.png  used on input line 500.
-(pdftex.def)             Requested size: 426.79135pt x 238.66064pt.
-<output3.png, id=214, 977.0904pt x 536.2434pt>
-File: output3.png Graphic file (type png)
-<use output3.png>
-Package pdftex.def Info: output3.png  used on input line 506.
-(pdftex.def)             Requested size: 426.79135pt x 234.2295pt.
 
 
 [12
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.509 \end{figure}
+l.515 \end{figure}
                   ]
-<output2.png, id=222, 608.5134pt x 422.7795pt>
-File: output2.png Graphic file (type png)
-<use output2.png>
-Package pdftex.def Info: output2.png  used on input line 512.
-(pdftex.def)             Requested size: 341.43437pt x 237.21938pt.
+<EDX1.png, id=241, 586.19pt x 442.65375pt>
+File: EDX1.png Graphic file (type png)
+<use EDX1.png>
+Package pdftex.def Info: EDX1.png  used on input line 526.
+(pdftex.def)             Requested size: 341.43437pt x 257.82678pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--529
+
+ []
+
 
 
 [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \newpage
-              
+l.530   \item B
+               all-milled + washed NMC materials\\ <./XRD_A.png> <./XRD_B.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 530--543
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 544.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 544.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 544.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 544.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 544.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--573
+
+ []
+
+
+
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \newpage
-               <./output.png> <./output3.png>]
+l.574 T
+       his small amount of lithium is very inferior to what was expected for... <./EDX1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 574--583
 
-[14
+ []
+
+
+Overfull \hbox (0.84714pt too wide) in paragraph at lines 584--589
+[]\OT1/cmr/m/n/10 A pos-si-ble hy-poth-e-sis to ad-dress this is-sue could in-volve dis-charg-ing first to lithi-ate the NMC811.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+
+ []
+
+<precalc.png, id=262, 726.91576pt x 510.10574pt>
+File: precalc.png Graphic file (type png)
+<use precalc.png>
+Package pdftex.def Info: precalc.png  used on input line 602.
+(pdftex.def)             Requested size: 341.43437pt x 239.59406pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--605
+
+ []
+
+
+
+[15
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.606 C
+       oncerning the proportions of each species in the material, the 1:1 sa...]
+Underfull \hbox (badness 10000) in paragraph at lines 606--614
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--625
+
+ []
+
+<calc.png, id=271, 1046.10825pt x 369.17924pt>
+File: calc.png Graphic file (type png)
+<use calc.png>
+Package pdftex.def Info: calc.png  used on input line 628.
+(pdftex.def)             Requested size: 341.43437pt x 120.49445pt.
+
+
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 \newpage
+l.632 T
+       he particle size was measured and compared before and after the calci... <./precalc.png>]
+<distrom.png, id=279, 991.3035pt x 483.60675pt>
+File: distrom.png Graphic file (type png)
+<use distrom.png>
+Package pdftex.def Info: distrom.png  used on input line 639.
+(pdftex.def)             Requested size: 341.43437pt x 166.57147pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--652
+
+ []
+
+<XRD3.png, id=285, 729.927pt x 505.89pt>
+File: XRD3.png Graphic file (type png)
+<use XRD3.png>
+Package pdftex.def Info: XRD3.png  used on input line 663.
+(pdftex.def)             Requested size: 298.75264pt x 207.06114pt.
+<XRD4.png, id=288, 693.18974pt x 513.117pt>
+File: XRD4.png Graphic file (type png)
+<use XRD4.png>
+Package pdftex.def Info: XRD4.png  used on input line 670.
+(pdftex.def)             Requested size: 298.75264pt x 221.1371pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--675
+
+ []
+
+
+
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.675 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.675 \end{figure}
+                   <./calc.png> <./distrom.png>]
+<output.png, id=297, 970.5861pt x 542.7477pt>
+File: output.png Graphic file (type png)
+<use output.png>
+Package pdftex.def Info: output.png  used on input line 684.
+(pdftex.def)             Requested size: 426.79135pt x 238.66064pt.
+<output3.png, id=298, 977.0904pt x 536.2434pt>
+File: output3.png Graphic file (type png)
+<use output3.png>
+Package pdftex.def Info: output3.png  used on input line 690.
+(pdftex.def)             Requested size: 426.79135pt x 234.2295pt.
+
+
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.693 \end{figure}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.693 \end{figure}
+                   <./XRD3.png> <./XRD4.png>]
+<output2.png, id=308, 608.5134pt x 422.7795pt>
+File: output2.png Graphic file (type png)
+<use output2.png>
+Package pdftex.def Info: output2.png  used on input line 696.
+(pdftex.def)             Requested size: 341.43437pt x 237.21938pt.
+
+
+[19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.700 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.700 \newpage
+               <./output.png> <./output3.png>]
+
+[20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.700 \newpage
                <./output2.png>] (Main.lof
 
-LaTeX Warning: Reference `emmanuel' on page 15 undefined on input line 2.
+LaTeX Warning: Reference `emmanuel' on page 21 undefined on input line 2.
 
 )
 \tf@lof=\write4
@@ -732,9 +892,9 @@ LaTeX Warning: Reference `emmanuel' on page 15 undefined on input line 2.
 
  (Main.bbl
 
-[15])
+[21])
 
-[16] (Main.aux)
+[22] (Main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -748,17 +908,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11472 strings out of 473896
- 181440 string characters out of 5726440
- 585889 words of memory out of 5000000
- 34101 multiletter control sequences out of 15000+600000
+ 11578 strings out of 473896
+ 182798 string characters out of 5726440
+ 588636 words of memory out of 5000000
+ 34181 multiletter control sequences out of 15000+600000
  568182 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,10n,93p,1292b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Main.pdf (17 pages, 1423740 bytes).
+ 89i,10n,93p,1292b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Main.pdf (23 pages, 7883603 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 587 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 430 words of extra memory for PDF output out of 10000 (max. 10000000)
 

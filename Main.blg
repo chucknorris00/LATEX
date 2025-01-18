@@ -6,45 +6,45 @@ The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: Biblio.bib
 Warning--I didn't find a database entry for "SC"
-You've used 14 entries,
+You've used 20 entries,
             2118 wiz_defined-function locations,
-            602 strings with 7354 characters,
-and the built_in function-call counts, 5580 in all, are:
-= -- 507
-> -- 375
+            638 strings with 8790 characters,
+and the built_in function-call counts, 8084 in all, are:
+= -- 729
+> -- 578
 < -- 0
-+ -- 148
-- -- 134
-* -- 478
-:= -- 987
-add.period$ -- 43
-call.type$ -- 14
-change.case$ -- 108
++ -- 228
+- -- 208
+* -- 702
+:= -- 1441
+add.period$ -- 62
+call.type$ -- 20
+change.case$ -- 163
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 153
-empty$ -- 359
-format.name$ -- 134
-if$ -- 1102
+cite$ -- 20
+duplicate$ -- 216
+empty$ -- 492
+format.name$ -- 208
+if$ -- 1583
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 15
-newline$ -- 74
-num.names$ -- 28
-pop$ -- 87
+int.to.str$ -- 20
+missing$ -- 21
+newline$ -- 105
+num.names$ -- 40
+pop$ -- 129
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 144
 quote$ -- 0
-skip$ -- 99
+skip$ -- 145
 stack$ -- 0
-substring$ -- 331
-swap$ -- 14
+substring$ -- 430
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 78
 warning$ -- 0
-while$ -- 39
-width$ -- 16
-write$ -- 157
+while$ -- 54
+width$ -- 22
+write$ -- 225
 (There was 1 warning)

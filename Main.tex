@@ -484,11 +484,195 @@ The morphology of active particles is a parameter of prime importance in our cas
 
 Based on this theoretical information, a higher capacity is expected for the coin cell with the NMC material prepared with a 6:4 salts ratio, and the lower one should be with the 4:6 salts ratio. Regarding durability, the most durable is expected to be the material prepared with a salts ratio of 4:6, then 1:1 and finally 6:4.\\
 
-By comparing the obtained particle size with those reported in other NMC molten-salt-based synthesis studies, the particles obtained in this work (Figure \ref{distributions}) are the smallest range observed. Jian Zhou et al. used a similar protocol but with a different lithium source \(Li_2CO_3\) instead of LiOH, as employed in this project, and reported 1 to 5 micrometers particles using the same salt-to-NMC ratio. When the salt amount was significantly increased relative to the NMC precursors over 40 times more salt than NMC,they achieved particle sizes of 0.1 micrometers. This ratio, however, greatly exceeds the salt proportion used in this study, highlighting a possible other phenomenon causing the particle's size reduction (at first that something happened differently)\cite{Jian}.\\
+By comparing the obtained particle size with those reported in other NMC molten-salt-based synthesis studies, the particles obtained in this work (Figure \ref{distributions}) are the smallest range observed. Jian Zhou et al. used a similar protocol but with a different lithium source \(Li_2CO_3\) instead of LiOH, as employed in this project, and reported 1 to 5 micrometers particles using the same salt-to-NMC ratio. When the salt amount was significantly increased relative to the NMC precursors over 40 times more salt than NMC,they achieved particle sizes of 0.1 micrometers. This ratio, however, greatly exceeds the salt proportion used in this study, highlighting a possible other phenomenon causing the particle's size reduction (at first that something happened differently)\cite{Jian}\cite{shape}.\\
 
 In the case of the other washing protocol (ball milling + washing (BM+W)), the size as well as the morphology of the NMC particles is similar. This observation implies that the additional ball milling step did not affect the particle size, but as these grains are very small, the experiment is  to be done with bigger particle synthesis to see if this assumption remains true.\\
-\subsection{Lithium amount in  \({Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}\)}
+\subsection{Purity analysis by XRD}
+The XRD patterns obtained for both ball-milled and not ball-milled series of three samples were 
+analyzed using XRD patterns corresponding to a NMC 811 material, a NaCl salt and a KCl salt found in
+ literature. The pattern's superposition shows the NMC 811 phase presence, while the salt's patterns
+ do not correspond to the peaks obtained (Figure \ref{XRD}). This statement is done for each material, i.e.for
+ each salt ratio and each protocol (ball-milled or not). However, the intensity of some NMC 811 peaks do 
+not correspond to the synthesized ones. For instance, at around \(2\theta=36^\circ\) and \(38^\circ\), the intensity is respectively
+ small and high on the XRD pattern obtained, and the contrary on the NMC pattern reference. This could be due
+ to the lack of lithium in the material. In any case, there seems to be a NMC
+ 811 phase in the material as expected, without salt presence according to the XRD analysis.\cite{mambo}\cite{tango}\\
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{XRD_A.png}
+    \label{fig:output}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{XRD_B.png}
+    \label{fig:output3}
+  \end{minipage}
+  \caption{ XRD patterns plotted on Matlab of the NMC 811 synthesized with a salt ratio of 1:1 where NMC811 [NMC811DRX] (red), NaCl and KCl [KCl] a)no ball-milling before washing, with annealing and b) with ball-milling before washing but no annealing}
+  \label{XRD}
+\end{figure}
+\subsubsection {Purity analysis by EDX}
+\begin{itemize}
+  \item Washed + annealed NMC materials\\
+  These samples are washed with water and annealed. According to the SEM picture, the salts have left during the washing step,
+   leaving the NMC particles with the correct stoichiometry as expected. However, some remaining salt particles have been observed,
+   for instance in the 6:4 sample as displayed by Figure \ref{EDX1}, showing an undesired agglomerate of KCl. The NaCl appears to be well-removed,
+   while the KCl is not. Some traces of Cl can be seen in every sample, while the 1:1 seems to contain less of K than the 6:4 and 4:6 samples.
+  To see the homogeneity as well as the particles shape and size, see 5.1.2.\\
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{EDX1.png}
+    \caption{SEM picture coupled with EDX mapping of chlorine and potassium in the NMC synthesized with a NaCl:KCl ratio equals to 6:4 after washing and annealing.}
+    \label{EDX1}
+  \end{figure}
+  \item Ball-milled + washed NMC materials\\
+  The interest of the additional ball-milling step lies in a
+   reduction of the size of some agglomerates that could have been 
+  formed during calcination. This second protocol aims to test the ball-milling 
+  influence on the particle size and morphology obtained, and also to efficiently 
+  remove all the salts in the NMC precursors. The ball-milling first successfully 
+  contributes to obtaining a thin powder that is washed and analyzed. According to
+   EDX coupled with SEM, there are no significant traces of NaCl and KCl, implying 
+  that this step also helps to synthesize a material without any remaining salts. 
+  Without ball-milling, the washing could not remove all the NaCl and KCl salts. 
+  Moreover, the ball-milling step does not impact the particle size, as the value
+   of around 100 nm for the BM+W 1:1 is close to 110nm that was mostly found for 
+  the samples without ball-milling. The material obtained thus seems to be better in terms of NMC purity.\\
+  \end{itemize}
+\subsubsection{Lithium amount in  \({Li(Ni}_{0.8}{Co}_{0.1}{Mn}_{0.1}{)O}_{2}\)}
+The ICP results highlight a critical issue in the synthesis protocol.
+ Lithium does not appear to be incorporated into the structure (0.37 to 0.42 mole for a NMC mole) 
+and is instead recovered in significant quantities -77\% of the initial amount in the washing water.
+ However, the ICP analysis confirms that the Ni Mn Co material maintains the correct stoichiometry in each sample
+, just as the EDX results. Furthermore the presence of ball milling as well as the last
+ annealing step do not seem to affect the amount of Lithium in the final NMC811 material. The concentrations can be seen
+ on table \ref{ICP_results} \\
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \textbf{Sample} & \textbf{Li (mol)} & \textbf{Ni (mol)} & \textbf{Mn (mol)} & \textbf{Co (mol)} \\
+    \hline
+    1:1 (W+A) & 0.37 & 0.80 & 0.10 & 0.10  \\
+    \hline
+    4:6 (W+A) & 0.38 & 0.80 & 0.10 & 0.10 \\
+    \hline
+    6:4 (W+A) & 0.39 & 0.80 & 0.10 & 0.10 \\
+    \hline
+    1:1 (BM+W) & 0.40 & 0.80 & 0.10 & 0.10  \\
+    \hline
+    4:6 (BM+W) & 0.41 & 0.80 & 0.10 & 0.10  \\
+    \hline
+    6:4 (BM+W) & 0.42 & 0.80 & 0.10 & 0.10  \\
+    \hline
+  \end{tabular}
+  \caption{ICP results for different samples showing the molar amounts of Li, Ni, Mn, and Co.}
+  \label{ICP_results}
+\end{table}
+This small amount of lithium is very inferior to what was expected for the NMC811 material, hence a possible mal-functioning during electrochemical use in a Li-ion battery. 
+The capacity of a cell depends directly on the amount of lithium reversibly inserted and extracted during cycling. 
+If only 40\% of the lithium (0.4) is initially available  for cycling, the capacity is limited and decreases starting from
+ the very first cycle. The main cause of this effect is due to the cell charging involved in the first step of its test,
+ during which all the lithium initially present in the positive electrode (NMC811) is transferred to the negative electrode
+ (lithium chip). During this process, a portion of the lithium is consumed to form the Solid Electrolyte Interphase (SEI)
+ on the negative electrode. This SEI layer is formed to increase the stability and safety of the cell but causes an irreversible
+ loss of lithium during the first charge. Consequently, the capacity of the cell diminishes from its theoretical capacity in the
+ first cycle.\cite{capacity}\\
 
+A possible hypothesis to address this issue could involve discharging first to lithiate the NMC811. However, this approach
+ would only be feasible if the structure \({\text{Li(Ni}}_{0.8}{\text{Co}}_{0.1}{\text{Mn}}_{0.1}{\text{)O}}_{2}\)
+ is with x not too close to zero. When \(x<1\), the absence of 
+sufficient lithium may result from structural instability or the lack of well-defined pathways for lithium insertion, making
+ re-lithiation ineffective. \cite{lithiation}
+
+ \subsection{Stepwise analysis from synthesis}
+ To discover and understand why the lithium has been washed away with salts in the water. SEM and XRD were done at different steps of the molten-salt based NMC synthesis (with a salt ratio of 1:1).\\
+ \subsubsection{Precalcination sample analysis}
+ The SEM and EDX reveal the presence of NaCl and KCl salts in the precursor NMC material,
+ in agglomerate form. This is shown by Figure \ref{precalc} a) and b), as the EDX mapping of sodium
+, potassium and chlorine highlight the salt particles. With a size of a few tens of micrometers,
+ they are bigger than the other particles observed. As these samples have not been calcinated yet,
+ the salts have not melted and the NMC grains are not formed. Particles of Nickel,
+ Manganese and Cobalt are indeed not well-dispersed inside the volume as the EDX mappings of Figure
+ \ref{precalc} c) and d) display. Small agglomerates of cobalt can be observed, without a lot of nickel. \\
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{precalc.png}
+  \caption{a) SEM coupled with EDX picture and EDX mappings of b) chlorine, c) cobalt, d) nickel in the NMC precursor synthesized with a NaCl:KCl ratio equals to 1:1 after pre-calcination}
+  \label{precalc}
+\end{figure}
+Concerning the proportions of each species in the material, the 1:1 salt ratio is respected
+ in the corresponding NMC sample, according to the EDX results. The normalized atomic concentration
+ is indeed 4.82\% for Na and 4.68\% for K, which are very close values, while the chloride one is 10.02\%.
+ As for NMC ratio, the atomic concentration is 7.41\% of nickel, 0.97\% of manganese and 0.60\% of cobalt.
+ It respects the ratio of the NMC811, as the quantity of Mn and Co are similar, while the Ni quantity
+ is approximately 8 times superior The Co concentration is a bit low here, but it is not really
+ representative of the real Co as this element is not well-dispersed in the material. A broader 
+picture should provide a more appropriate Co concentration value.\\
+\subsubsection{Calcination sample analysis}
+The 1:1 sample was analyzed with SEM and EDX techniques after calcination. The material has not been washed yet,
+ hence KCl and NaCl particles' presence. They are dispersed in the sample. Concerning the NMC, the ratio is 811 
+as it should and it is agglomerated on the salt particle: the normalized atomic concentration is 32.98\% Ni, 
+3.51\% Co and 4.34\% Mn according to the EDX (Figure \ref{calc} a)). The role of the calcination step is highlighted by
+ comparing these results to the ones for the pre-calcined 1:1 sample. Contrary to the agglomerates of Ni, Mn 
+and Co we had, after calcination the particles are more dispersed in the materials. The calcination helps to 
+melt the salts and to form the NMC811 particles. The shape of the salt particles have changed according to the 
+SEM results: the size is still around some micrometers (the SEM picture shows a particle of around ten micrometers,
+ which is a bit smaller as in the pre-calcined sample but a more global view should be done over the material to assert
+ the salt particles shrink during calcination), but they seem to be a bit sharper after than before the  calcination step.\\
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{calc.png}
+  \caption{SEM coupled with EDX picture and b) EDX mappings of nickel in the NMC synthetized with a NaCl:KCl ratio equals to 1:1 after calcination}
+  \label{calc}
+\end{figure}
+The particle size was measured and compared before and after the calcination step using distributions. 
+According to Figure \ref{distrom}, the NMC particle size is initially mainly around 80 nm while after calcination 
+it is mainly between 80 and 100 nm. The sintering enabled a small particle growth, although the size 
+measurement was very approximate for the sample before calcination, as the SEM picture was not zoomed in enough. 
+These results should thus be considered carefully.\\
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{distrom.png}
+  \caption{Size distribution of NMC particles in a material prepared with a NaCl:KCl ratio of 1:1 a) between precalcination and calcination, b) after calcination (see Appendix for the SEM pictures studied) }
+  \label{distrom}
+\end{figure}
+During the calcination, Ostwald ripening does not seem to happen in these conditions: with this salt,
+ at \(800^\circ C\) and during 12 hours. The size of particles should have significantly increased during the
+ process.\cite{B}\cite{shape}.\\ 
+In order to see how every parameter influences the ripening of particles, a 
+“experimental plan” can be done with the previously mentioned parameters (Sintering temperature, time and salt amount).  
+Moreover, having a NMC particle size around 100 nm provides a higher discharge capacity at different cycling rates 
+(C/25, C/10 and C/5) than with bigger particle sizes, such as 1 µm or 10µm. However, the specific area being higher
+ for small particles, the latter are more quickly deteriorated while cycling the battery.\cite{Jian} 
+The materials prepared are then interesting in terms of discharge capacity, while their durability is expected to be low. \\  
+
+\subsubsection{XRD comparison of precalcination and calcination}
+The absence of lithium in the NMC811 samples led to the search for LiCl in the material as a potential explanation.
+Precalcined and calcined samples were analyzed to understand the phase formation of NMC811 during calcination. 
+In all XRD patterns, the presence of NaCl and KCl was detected, but LiCl was not observed Figure \ref{XRD3}.
+ This dismisses the hypothesis that LiCl formed during precalcination and was removed during the washing process. \\
+After calcination, the NMC811 phase appears while it was not present before on Figure \ref{XRD4}. This illustrates the transition between carbonate precursors and the NMC811.\\
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.7\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{XRD3.png}
+  \caption{XRD patterns after precalcination using NaCl:KCl (6:4) molten salts to synthesize NMC811,  where NMC811 \cite{mambo} (red), NaCl and KCl [KCl], LiCl [LiCl]}
+    \label{XRD3}
+  \end{minipage}
+  \vfill
+  \begin{minipage}{0.7\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{XRD4.png}
+    \label{fig:XRD_calc}
+  \end{minipage}
+  \caption{XRD patterns after calcination using NaCl:KCl (1:1) molten salts to synthesize NMC811.}
+  \label{XRD4}
+\end{figure}
 \section{Conclusion}
 
 
