@@ -20,6 +20,12 @@ Yuichi Itou, Nobuhiro Ogihara, and Shigehiro Kawauchi.
   revealed by electrochemical impedance spectroscopy using a symmetric cell.
 \newblock {\em The Journal of Physical Chemistry C}, 124(10):5559--5564, 2020.
 
+\bibitem{CB}
+Yuichi Itou, Nobuhiro Ogihara, and Shigehiro Kawauchi.
+\newblock Role of conductive carbon in porous li-ion battery electrodes
+  revealed by electrochemical impedance spectroscopy using a symmetric cell.
+\newblock {\em The Journal of Physical Chemistry C}, 124(10):5559--5564, 2020.
+
 \bibitem{NMCintro}
 Jin~Kyo Koo, Hyeongjun Choi, Jae kwon Seo, Soo~Min Hwang, Jaewoo Lee, and
   Young-Jun Kim.
@@ -60,6 +66,13 @@ Ivan~A. Moiseev, Aleksandra~A. Savina, Alina~D. Pavlova, Tatiana~A. Abakumova,
   batteries with ultra-high volumetric energy density.
 \newblock {\em Energy Adv.}, 1:677--681, 2022.
 
+\bibitem{NMC811mat}
+Katharina Märker, Philip~J. Reeves, Chao Xu, Kent~J. Griffith, and Clare~P.
+  Grey.
+\newblock Evolution of structure and lithium dynamics in lini0.8mn0.1co0.1o2
+  (nmc811) cathodes during electrochemical cycling.
+\newblock {\em Chemistry of Materials}, 31(7):2545--2554, 2019.
+
 \bibitem{Olivine}
 Tatsuya Nakamura, Yoshiki Miwa, Mitsuharu Tabuchi, and Yoshihiro Yamada.
 \newblock Structural and surface modifications of lifepo4 olivine particles and
@@ -84,6 +97,12 @@ Topolovek Stephan.
 \newblock {\em Script: Funtional Materials}.
 \newblock TU Graz, Graz, Austria, 2022.
 
+\bibitem{PVDF}
+Sang Sung, Sunhyung Kim, Jeong Park, Jun~Dong Park, and Kyung Ahn.
+\newblock Role of pvdf in rheology and microstructure of ncm cathode slurries
+  for lithium-ion battery.
+\newblock {\em Materials}, 13:4544, 10 2020.
+
 \bibitem{LCO}
 I.~Turner, N.~Bamber, J.~Andrews, and N.~Pelletier.
 \newblock Systematic review of the life cycle optimization literature, and
@@ -103,6 +122,12 @@ Dapeng Wang, Ilias Belharouak, Gary~M. Koenig, Guangwen Zhou, and Khalil Amine.
   battery cathodes.
 \newblock {\em J. Mater. Chem.}, 21:9290--9295, 2011.
 
+\bibitem{NCA}
+Ding Wang, Weihong Liu, Xuhong Zhang, Yue Huang, Mingbiao Xu, and Wei Xiao.
+\newblock Review of modified nickel-cobalt lithium aluminate cathode materials
+  for lithium-ion batteries.
+\newblock {\em International Journal of Photoenergy}, 2019(1):2730849.
+
 \bibitem{lithiation}
 Chao Xu, Katharina Märker, Juhan Lee, Amoghavarsha Mahadevegowda, Philip
   Reeves, Sarah Day, Matthias Groh, Steffen Emge, Caterina Ducati, B.~Layla
@@ -110,6 +135,13 @@ Chao Xu, Katharina Märker, Juhan Lee, Amoghavarsha Mahadevegowda, Philip
 \newblock Bulk fatigue induced by surface reconstruction in layered ni-rich
   cathodes for li-ion batteries.
 \newblock {\em Nature Materials}, 20:1--9, 01 2021.
+
+\bibitem{LMO}
+Ting-Feng Yi, Yan-Rong Zhu, Xiaodong Zhu, Jinfu Shu, Cai-Bo Yue, and An-Na
+  Zhou.
+\newblock A review of recent developments in the surface modification of limn 2
+  o 4 as cathode material of power lithium-ion battery.
+\newblock {\em Ionics}, 15:779--784, 12 2009.
 
 \bibitem{precalci}
 Bixian Ying, Jack~R. Fitzpatrick, Zhenjie Teng, Tianxiang Chen, Tsz

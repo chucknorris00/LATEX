@@ -36,12 +36,12 @@
   }
  
 
-\author{
-  \textbf{Authors}\\
-  Noriega Franco Santiago \\
-  Choppe Apolline \\
-  Brétillon Laura\\
-  \\
+  \author{
+    \textbf{Authors}\\
+    Santiago Noriega Franco \\
+    Apolline Choppe \\
+    Laura Brétillon\\
+\\  
   \textbf{Supervisors}\\
   Eddy Coron\\
   Julia Levy\\
@@ -63,11 +63,21 @@
 
 \newpage
 \section{Abstract}
+Lithium Ion batteries are key for the sustainable mobility development. 
+Battery performance depends mainly on composition, morphology and crystal structure 
+of the electrodes and the electrolyte. Nickel Manganese Cobalt oxide(\(\text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{O}_{2} \)) is currently
+dominant as a positive electrode for electric vehicles batteries. 
+There are efforts to reduce the ammount of cobalt and increase the nickel proportion,
+aiming to increase energy density and reduce material costs. This project seeks 
+to reporpuse byporduct carbonates (\({MnCO}_{3}\), \({CoCO}_{3}\) and \({NiOH}_{a}{({CO}_{3})}_{b}\) ) 
+to synthesise NMC811 using a molten salt-assisted solid-state sintering method.\\
 \section {Introduction}
 
 \subsection{Context}
 
-Lithium-ion batteries are a key technological tool for the sustainable mobility development all around the world. The performance of these batteries are highly influenced by the materials composition, morphology, crystal structure and synthesis parameters, specially for the positive electrode material and the electrolyte.\cite{topo} \\
+Lithium-ion batteries are a key technological tool for the sustainable mobility development all around the world.
+During discharge, lithium ions move from the negative electrode (anode) to the positive electrode (cathode) through the electrolyte, while electrons flow through the external circuit, generating an electric current. The reverse process occurs during charging.
+The performance of these batteries are highly influenced by the materials composition, morphology, crystal structure and synthesis parameters, specially for the positive electrode material and the electrolyte.\cite{topo} \\
 
 NMC (Nickel-Manganese-Cobalt oxide) is todays the predominant material used for the positive electrode in modern electric vehicle batteries. Current developments focus on reducing cobalt content in favor of increasing nickel in the structure, specifically transitioning towards high-nickel compositions such as NMC811. This shift aims to enhance energy density, lower material costs, and address ethical and environmental concerns associated with cobalt mining. \cite{NMC811} \cite{NMCintro} \\
 
@@ -79,22 +89,26 @@ Q_{th} = \frac{n F}{3.6 M}
 
 where n: number of electrons;
 Faraday constant F = 96500 C/mol;
-M=96.5 mol/g mass molar of NMC811;
+Molar mass of NMC811 M=96.5 g/mol.\\
 
 \begin{center}
   
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Property} & \textbf{Value} \\ 
+        \hline
+        Specific capacity theoretical (mAh/g) & 280 \\ 
+        \hline
+        Average Voltage in discharge (V) & 3.7 \\ 
+        \hline
+    \end{tabular}
+    \caption{NMC811 data \cite{NMC811}}
+    \label{NMC811_properties}
+\end{table}
+\end {center}
 
-\begin{tabular}{|c|c|c|}
-  
-  \hline
-  Specific capacity
-theoretical
-(mAh/g) & 280  \\
-  \hline
-  Average Voltage in discharge (V) & 3.7  \\
-  \hline
-\end{tabular}
-\end{center}
 
 However, the higher nickel content introduces significant challenges. Nickel's tendency to occupy lithium sites, a phenomenon known as cation mixing or positive electrode mixing, can degrade the crystal structure. This defect reduces lithium mobility, diminishes cycling stability, and impairs the battery's long-term performance. Furthermore, high-nickel NMC materials are more chemically reactive, which can lead to thermal instability and increased side reactions with the electrolyte.\cite{NMCintro} \\
 
@@ -123,7 +137,7 @@ specially if the process is wanted for industrial applications.
 
 \subsubsection{Single-crystal (SC) particles formation interest}
 
-The \textbf{molten salt synthesis} method is a technique producing single-crystal particles, unlike the polycrystalline particles typically obtained through the solid-state method. Using molten salts, which act as a reactive medium at high temperatures. In their liquid state, these salts provide an environment that enables free ion movement, facilitating controlled crystal growth. This process allows the formation of single-crystal particles by favorating uniform growth and minimizing the formation of grain boundaries that are characteristic of polycrystalline structures. \cite{SC}
+The \textbf{molten salt synthesis} method is a technique producing single-crystal particles, unlike the polycrystalline particles typically obtained through the solid-state method. Using molten salts, which act as a reactive medium at high temperatures. In their liquid state, these salts provide an environment that enables free ion movement, facilitating controlled crystal growth. This process allows the formation of single-crystal particles by favorating uniform growth and minimizing the formation of grain boundaries that are characteristic of polycrystalline structures. \cite{Heuristics}
 \\
 
 This phenomenon is more precisely known as \textbf{Ostwald ripening} \cite{oswald}, which plays a crucial role in the formation and growth of particles. When a mixture of particles of varying sizes is heated in the molten salts, smaller particles, which are thermodynamically less stable due to their higher surface energy, tend to dissolve. The ions released from these smaller particles migrate through the molten salt medium and redeposit onto larger particles, which are more stable because of their lower specific surface area. This process, enhanced by the high ionic mobility in molten salts, leads to a reduction in particle size dispersion and a gradual increase in average particle size. Over time, the smaller particles disappear entirely, leaving only the larger ones, which develop into well-defined single crystals.\cite{moltensalt1}
@@ -136,20 +150,20 @@ The focus of this study is to synthesize using this method as well as to evaluat
 \subsection{Positive electrode materials}
 
 Todays positive electrodes are mostly intercalation or composite electrodes, they consist in a solid network that can host lithium ions with intercalation during discharge and deintercalation during discharge.
-These compounds can be devided into several different structures; layered, olivine and spinel. \cite{topo} \\
+These compounds can be devided into several different structures; layered, olivine and spinel. \cite{topo}  \\
 
 Some common cathode materials in lithium-ions technologies are:
 \begin{description}
  \subsubsection{Layered structures}
   \item[$\text{LiCoO}_{2}$]  (LCO). This material has low capacity compared to the theoretical one the extraction of more than half the lithium content leads to structural instabilities. It's use is also restricted due to the high cost of cobalt and its scarcity. \cite{topo}\cite{LCO}
  
-  \item[$ \text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2} $]  (NMC811). NMC811 has more nickel and less cobalt than NMC111, which is better for the environment by reducing reliance on cobalt. However, this higher nickel content makes NMC811 batteries less stable and more prone to degradation and overheating compared to NMC111.\cite{topo}
+  \item[$ \text{Li(Ni}_{0.8}\text{Co}_{0.1}\text{Mn}_{0.1}\text{)O}_{2} $]  (NMC811). NMC811 has more nickel and less cobalt than NMC111, which is better for the environment by reducing reliance on cobalt. However, this higher nickel content makes NMC811 batteries less stable and more prone to degradation and overheating compared to NMC111.\cite{topo}\cite{NMC811mat}
   
 
   \item[$\text{LiNi}_{0.8}\text{Co}_{0.15}\text{Al}_{0.05}\text{O}_{2}$] (NCA).
   This material increases the charge capacity by changing the Co content with Ni and using aluminum as 
   a stabilizer. This reduces slightly the average cell voltage
-  compared to LCO.\cite{topo}
+  compared to LCO.\cite{topo}\cite{NCA}
 \end{description}
 
 \begin{description}
@@ -158,7 +172,7 @@ Some common cathode materials in lithium-ions technologies are:
   of LMO, allows diffusion on three dimensions, which leads to faster charge
   - discharge rates. It is also a greener solution compared to to 
   Co based positive electrode materials. The disadvantage of LMO is t
-its low charge retention and low cyclability.\cite{topo}
+its low charge retention and low cyclability.\cite{topo}\cite{LMO}
 \end{description}
 
 \begin{description}
@@ -173,6 +187,12 @@ its low charge retention and low cyclability.\cite{topo}
 The choice of synthesis method plays a critical role in determining the final properties of NMC materials. Key attributes such as tap density, particle size distribution, particle morphology (both primary and secondary shapes), and crystallinity are strongly influenced by the synthesis process. Additionally, the method chosen impacts the presence of impurities, the overall quality of the final product, and its electrochemical performance. \\
 
 Various synthesis methods are available for producing NMC, including co-precipitation, solid-state reaction, sol-gel processes, hydrothermal methods, and spray pyrolysis \cite{process}. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{synthesis.png}
+  \caption{Most commonly used methods for NMC synthesis.}
+  \label{fig:synthesis}
+\end{figure}
 
 Each approach has its own advantages and limitations, influencing the structure and performance of the material in different ways. Below is an overview of the most commonly used methods for NMC synthesis:
 \subsubsection{Co-precipitation}
@@ -321,20 +341,14 @@ Each one of the grounded or ball-milled NMC samples are then washed using vacuum
 After the washing step, the samples are once again heated in the oven, this time at 600°C for 3h with a prior ramp of ??. This last step of the NMC 811 materials synthesis aims to release the CO2 gas that can still remains in the powder, or even some carbonates. It is also a way to effectively dry the material previously washed.\\
 
 \subsubsection{Ink preparation}
-To make a functioning possitive electrode to be tested inside a coin cell, 
+To make a functioning positive electrode to be tested inside a coin cell, 
 the NMC 811 obtained needs to be mixed with a conductive carbon and a binder into a slurry.
 This mixture needs to be composed by 80\% of NMC 811, 10\% of conductive carbon and 10\% of binder.\\
 Here, the carbon black is used as a conductive matrix, and helps create ionic paths for the electrolyte 
 to fill the pores and have a good contact with the NMC 811\cite{Itou}. The binder is a polymer called polyvinylidene difluoride (PVDF),
-is used to keep the material together.\\
+is used to keep the material together.\cite{PVDF} \cite{CB}\\
 NMP (N-Methyl-2-pyrrolidone) is used as the solvent to adjust the viscosity of the ink. It should be added gradually to avoid clumps. Cyclohexane can be added to improve dispersion of active material in the mixture, it evaporates quickly under the hood when heated to 80°C.\\
 \textbf{Process of Ink Preparation:}\\
-\begin{itemize}
-  \item The NMC, carbon black and PVDF are weighted in the correct proportions that are represented on 
-  table \ref{t3}.
-  \item The materials are first mixed in a speed mixer (Hauschild SpeedMixer DAC 250.3 SP)  at 1500 rpm for 2 minutes to ensure all particles are coated. A second mixing step at 2500 rpm for 8 minutes, with additional NMP, is performed to achieve the desired consistency.
-  \item The ink is then coated onto aluminum foil using an adjusted blade of 15 um. Proper ventilation must be ensured during the process, and the blade used for coating should be cleaned beforehand. Coating is performed at a low speed for uniform application. The desired wet thickness is 150 µm, which dries to 20-30 µm, when applied on aluminum.
-  \item The electrode coating was dried in an oven for 12 hours, after which it was cut using a punch cutter. Three electrodes, each with a diameter of 12 mm, were then weighed to ensure consistent weight across samples, thereby maintaining the same active material mass.
   \begin{itemize}
     \item The NMC, carbon black and PVDF are weighted in the correct proportions that are represented on 
     table \ref{t3}.
@@ -348,26 +362,25 @@ NMP (N-Methyl-2-pyrrolidone) is used as the solvent to adjust the viscosity of t
     \item The thickness of the coating was measured using a … . This measurement was used to calculate the coating volume and subsequently the porosity:\\
     \begin{center}
     Porosity (\%) = 100 \(\times\) (1 - \(\frac{Coating Volume }{Theoretical Volume }\))\\
-    
   \end{center}
     Where the  coating volume is the thickness times tne area of the electrode. 
   \end{itemize}
   
-\end{itemize}
+
 \begin{table}[h!]
   \centering
   \begin{adjustbox}{width=1\textwidth}
   \small
   \begin{tabular}{|c|c|c|c|c|c|}
     \hline
-    & \textbf{Total Mass (mg)} & \textbf{Active material mass (mg)} & \textbf{Theoretical volume (mm$^3$)} & \textbf{Porosity (\%)} & \textbf{Theoretical capacity (Ah)} \\ 
-    \hline
-    \textbf{Na 6:4 K} & 4.20 & 3.36 & 1.19 & 52.06 & 3.3 \\ 
-    \hline
-    \textbf{Na 4:6 K} & 4.80 & 3.84 & 1.36 & 51.79 & 3.8 \\ 
-    \hline
-    \textbf{Na 1:1 K} & 5.30 & 4.24 & 1.51 & 52.47 & 4.2 \\ 
-    \hline
+	& \textbf{Total Mass (mg)} & \textbf{Active material mass (mg)} & \textbf{Theoretical volume (mm$^3$)} & \textbf{Porosity (\%)} & \textbf{Theoretical capacity (mAh)} \\
+	\hline
+	\textbf{Na 6:4 K} & 4.20 & 3.36 & 1.19 & 52.06 & 0.93\\
+	\hline
+	\textbf{Na 4:6 K} & 4.80 & 3.84 & 1.36 & 51.79 & 1.06 \\
+	\hline
+	\textbf{Na 1:1 K} & 5.30 & 4.24 & 1.51 & 52.47 & 1.17 \\
+	\hline
   \end{tabular}
   \end{adjustbox}
   \caption{Parameters for electrode tape casting.}
@@ -375,8 +388,13 @@ NMP (N-Methyl-2-pyrrolidone) is used as the solvent to adjust the viscosity of t
 \end{table}
 \subsection{Coin cell protocol}
 \subsubsection{Coin cell assembly}
-The coin cells were assembled inside a glovebox, which is a controlled environment that tends
-to minimize the humidity in the air for safety reasons. A single coin cell was assembled for each NMC sample, using the following components in addition to the NMC electrode:
+The coin cells were assembled inside an argon-filled glovebox, which provides a controlled environment to minimize the presence of oxygen \(O_2\) and water \(H_2O\). This precaution is crucial as both \(O_2\)  and \(H_2O\) can react with the lithium metal, leading to the formation of unwanted compounds that can degrade the performance of the battery and compromise its safety.\\
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{coincell.png}
+  \caption{Coin cell assembly scheme.}
+  \label{fig:coin_cell}
+\end{figure}
 \begin {itemize}
 \item Casing: The coin cell casing is made of stainless steel and its function is to hold all the components inside it and be electrically conductive.
 \item Seal: The seal is made of a polymeric material and assures no opening or leakage of the assembled cell.  
@@ -661,7 +679,7 @@ After calcination, the NMC811 phase appears while it was not present before on F
   \begin{minipage}{0.7\textwidth}
     \centering
     \includegraphics[width=\textwidth]{XRD3.png}
-  \caption{XRD patterns after precalcination using NaCl:KCl (6:4) molten salts to synthesize NMC811,  where NMC811 \cite{mambo} (red), NaCl and KCl [KCl], LiCl [LiCl]}
+  \caption{XRD patterns after precalcination using NaCl:KCl (6:4) molten salts to synthesize NMC811,  where NMC811 \cite{mambo} (red), NaCl and KCl\cite{tango}, LiCl.}
     \label{XRD3}
   \end{minipage}
   \vfill
@@ -673,8 +691,24 @@ After calcination, the NMC811 phase appears while it was not present before on F
   \caption{XRD patterns after calcination using NaCl:KCl (1:1) molten salts to synthesize NMC811.}
   \label{XRD4}
 \end{figure}
-\section{Conclusion}
-
+\section{Conclusions}
+Over all analysis of the sintered materials among several techniques, the 
+final remarks of the study can be summarized on the following points: \\
+\begin{itemize}
+  \item The synthesized material had the correct composition, stoichiometry (except for Lithium) and an XRD pattern that corresponds to NMC811.
+  \item Different NaCl:KCl ratios lead to different particle sizes and morphologies. 
+  The 1:1 ratio results in a more homogeneous distribution of particles (130 nm),
+   while the 6:4 ratio produces larger, flatter particles (150 nm). The 4:6 ratio yields smaller,
+    less defined particles with a higher degree of aggregation (\(>50nm\)).
+  \item The overall size of particles was way smaller than those found in other studies. Ostwald ripening mechanism did not seem to happen during the calcination step.
+  \item A considerable amount of lithium was lost during the washing stage, retaining only about 40\%
+  in the final product. This loss affects the battery performance and capacity. The theory that LiCl was formed and washed away was discarded by XRD analysis.
+  \item The ball-milling step after calcination did not affect the final particle size, 
+  but it eliminated the trace amounts of salts in the final product, enhancing the washing process. 
+  \item The low amount on Lithium in the final product and the small particle size of the NMC resulted in a unsuccessful electrochemical characterization.  
+\end{itemize}
+For possible future work, a further study can be done variating the precursor:salt ratio, and to understand the influence of the 
+calcination parameters. Annother interesting point would be to study other lithium sources apart from LiOH to see if the lithium amount in the final product can be increased.\\
 
 
 

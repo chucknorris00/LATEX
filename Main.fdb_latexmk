@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Main"] 1737200742.55825 "Main.aux" "Main.bbl" "Main" 1737200822.59048 0
-  "./Biblio.bib" 1737200201 21604 19569e14395480ad90ee0bc12002607c ""
+["bibtex Main"] 1737300469.32117 "Main.aux" "Main.bbl" "Main" 1737300473.95227 0
+  "./Biblio.bib" 1737294231 22055 3d8afce2b650f04c960bbc9ade7bff8c ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Main.aux" 1737200819 28452 167125b81e96c4ee647a48c415d796ba "pdflatex"
+  "Main.aux" 1737300473 29421 1dd9b8a44488388e3c5c5fbb72c238bc "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1737200806.06403 "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" "Main.pdf" "Main" 1737200822.59495 0
+["pdflatex"] 1737300469.70945 "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" "Main.pdf" "Main" 1737300473.95316 0
   "C:/Users/santi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1733480779 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/santi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1732698671 11548 1daace73ece52c25d4abfdcaf92f25bd ""
   "C:/Users/santi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730141119 11948357 ef6d9b966126357acffd82f60b704d4e ""
@@ -114,18 +114,19 @@
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/santi/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "EDX1.png" 1737196524 1593832 8b65e9ba8ccda1b9d8d17a3afd5d010c ""
-  "Main.aux" 1737200819 28452 167125b81e96c4ee647a48c415d796ba "pdflatex"
-  "Main.bbl" 1737200743 5824 5b9793049970853c24bc844d2103f10f "bibtex Main"
-  "Main.lof" 1737200819 2344 b2880293d7a1133e18902c1af4e4de8c "pdflatex"
-  "Main.lot" 1737200819 910 20153a08ba7d31817ebee0cb9cd763dc "pdflatex"
-  "Main.tex" 1737200802 49986 da3b906d5dcdd68fb7eee1b55426be13 ""
-  "Main.toc" 1737200819 4022 14e47f30fc6ae38be737b674d17baeac "pdflatex"
+  "Main.aux" 1737300473 29421 1dd9b8a44488388e3c5c5fbb72c238bc "pdflatex"
+  "Main.bbl" 1737300469 7235 ef901896839fce912f9082be923b34fd "bibtex Main"
+  "Main.lof" 1737300473 2560 59585f6686a76f6eb2ad244438bad9e7 "pdflatex"
+  "Main.lot" 1737300473 1005 ad3f63145df3530de410a57e2756388a "pdflatex"
+  "Main.tex" 1737300463 52421 89f62afa950ce1891cc7ba29df368652 ""
+  "Main.toc" 1737300473 4028 7528ff80375acf692a3b1321f68408c1 "pdflatex"
   "XRD3.png" 1737200526 111423 7d267dbb30e25c727e020be80ab7c11b ""
   "XRD4.png" 1737200550 102404 d8cbf046d524910cf9e7c110513dee45 ""
   "XRD_A.png" 1737195115 105089 8a51599125ab872de1127ab760f6b842 ""
   "XRD_B.png" 1737195119 109761 28d101c5567bcaa9399c17973d287b49 ""
-  "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" 1737200802 49986 da3b906d5dcdd68fb7eee1b55426be13 ""
+  "c:/Users/santi/Desktop/SUMA III/MUTLITPROJECT/LATEX/Main.tex" 1737300463 52421 89f62afa950ce1891cc7ba29df368652 ""
   "calc.png" 1737199207 2075258 3c7f145791d1fb6cb0be963e3f1ecc57 ""
+  "coincell.png" 1737295485 225676 dbebc369d6062be37df2a2d2f72b9f45 ""
   "distrom.png" 1737199914 139406 2c5a0a04cee96cef5c6971ececda085b ""
   "foursix.png" 1736961874 284800 627d4437c0e2e5343765024f4d60fa4a ""
   "images.png" 1730136612 4669 240268e109db712e48aba6e51861121f ""
@@ -136,6 +137,7 @@
   "output3.png" 1732800992 32369 b2aa2891c700ef5124af843cad4d1c04 ""
   "precalc.png" 1737198359 1905585 2cb9722ce694ad34a7652cd63ab29aeb ""
   "sixfour.png" 1736961623 214650 0786661eedd010c46f76b2df7958ff1e ""
+  "synthesis.png" 1737294475 298890 9a16816ec26f9c02a2891df864720bad ""
   "tabl.png" 1736960889 201083 3150b09e44a8d5140ab27c63035825a9 ""
   (generated)
   "Main.aux"
